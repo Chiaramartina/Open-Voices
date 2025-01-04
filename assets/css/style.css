@@ -896,6 +896,31 @@ section {
   outline: none;
 }
 
+/* Stile per la legenda */
+.legend {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+  font-size: 12px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+}
+
+.legend-text {
+  margin: 0;
+}
+
 .js-plotly-plot .plotly .main-svg {
   left: 12vw;
 }
@@ -1034,10 +1059,15 @@ blockquote {
 }
 
 .analysis-box-title {
-  display: inline-flex;
+  text-align: center;
   align-items: center;
   font-size: 1.2em;
   padding-bottom: 1em;
+}
+
+.box-paragraph {
+  display: inline-flex;
+  align-items: center;
 }
 
 .services .analysis-box-title i {

@@ -610,7 +610,8 @@
         "source": "https://simplemaps.com", 
         "id": "IT23", 
         "name": "Valle d'Aosta",
-        "victims": 11.0746
+        "cluster": "low",
+        "victims": 11.07
       }, 
       "id": 1
     }, 
@@ -3530,7 +3531,9 @@
       "properties": {
         "source": "https://simplemaps.com", 
         "id": "IT21", 
-        "name": "Piedmont"
+        "name": "Piedmont",
+        "cluster": "medium",
+        "victims": 23.33
       }, 
       "id": 2
     }, 
@@ -5650,7 +5653,9 @@
       "properties": {
         "source": "https://simplemaps.com", 
         "id": "IT42", 
-        "name": "Liguria"
+        "name": "Liguria",
+        "cluster": "medium",
+        "victims": 21.61
       }, 
       "id": 3
     }, 
@@ -8898,7 +8903,9 @@
       "properties": {
         "source": "https://simplemaps.com", 
         "id": "IT25", 
-        "name": "Lombardy"
+        "name": "Lombardy",
+        "cluster": "medium",
+        "victims": 19.66
       }, 
       "id": 4
     }, 
@@ -11082,7 +11089,9 @@
       "properties": {
         "source": "https://simplemaps.com", 
         "id": "IT32", 
-        "name": "Trentino-Alto Adige"
+        "name": "Trentino-Alto Adige",
+        "cluster": "low",
+        "victims": 15.20
       }, 
       "id": 5
     }, 
@@ -14668,7 +14677,9 @@
       "properties": {
         "source": "https://simplemaps.com", 
         "id": "IT34", 
-        "name": "Veneto"
+        "name": "Veneto",
+        "cluster": "medium",
+        "victims": 17.93
       }, 
       "id": 6
     }, 
@@ -16132,7 +16143,9 @@
       "properties": {
         "source": "https://simplemaps.com", 
         "id": "IT36", 
-        "name": "Friuli Venezia Giulia"
+        "name": "Friuli Venezia Giulia",
+        "cluster": "low",
+        "victims": 15.23
       }, 
       "id": 7
     }, 
@@ -19602,7 +19615,9 @@
       "properties": {
         "source": "https://simplemaps.com", 
         "id": "IT52", 
-        "name": "Tuscany"
+        "name": "Tuscany",
+        "cluster": "medium",
+        "victims": 21.64
       }, 
       "id": 8
     }, 
@@ -21760,7 +21775,9 @@
       "properties": {
         "source": "https://simplemaps.com", 
         "id": "IT55", 
-        "name": "Umbria"
+        "name": "Umbria",
+        "cluster": "medium",
+        "victims": 18.98
       }, 
       "id": 9
     }, 
@@ -24546,7 +24563,9 @@
       "properties": {
         "source": "https://simplemaps.com", 
         "id": "IT62", 
-        "name": "Lazio"
+        "name": "Lazio",
+        "cluster": "high",
+        "victims": 29.28
       }, 
       "id": 10
     }, 
@@ -26362,7 +26381,9 @@
       "properties": {
         "source": "https://simplemaps.com", 
         "id": "IT65", 
-        "name": "Abruzzo"
+        "name": "Abruzzo",
+        "cluster": "medium",
+        "victims": 23.71
       }, 
       "id": 11
     }, 
@@ -28346,7 +28367,9 @@
       "properties": {
         "source": "https://simplemaps.com", 
         "id": "IT75", 
-        "name": "Puglia"
+        "name": "Puglia",
+        "cluster": "medium",
+        "victims": 21.05
       }, 
       "id": 12
     }, 
@@ -30428,7 +30451,9 @@
       "properties": {
         "source": "https://simplemaps.com", 
         "id": "IT72", 
-        "name": "Campania"
+        "name": "Campania",
+        "cluster": "medium",
+        "victims": 23.50
       }, 
       "id": 13
     }, 
@@ -31764,7 +31789,9 @@
       "properties": {
         "source": "https://simplemaps.com", 
         "id": "IT67", 
-        "name": "Molise"
+        "name": "Molise",
+        "cluster": "low",
+        "victims": 10.79
       }, 
       "id": 14
     }, 
@@ -33520,7 +33547,9 @@
       "properties": {
         "source": "https://simplemaps.com", 
         "id": "IT77", 
-        "name": "Basilicata"
+        "name": "Basilicata",
+        "cluster": "low",
+        "victims": 13.67
       }, 
       "id": 15
     }, 
@@ -34816,7 +34845,9 @@
       "properties": {
         "source": "https://simplemaps.com", 
         "id": "IT78", 
-        "name": "Calabria"
+        "name": "Calabria",
+        "cluster": "low",
+        "victims": 13.88
       }, 
       "id": 16
     }, 
@@ -37010,7 +37041,9 @@
       "properties": {
         "source": "https://simplemaps.com", 
         "id": "IT82", 
-        "name": "Sicilia"
+        "name": "Sicilia",
+        "cluster": "low",
+        "victims": 15.82
       }, 
       "id": 17
     }, 
@@ -39872,7 +39905,9 @@
       "properties": {
         "source": "https://simplemaps.com", 
         "id": "IT88", 
-        "name": "Sardegna"
+        "name": "Sardegna",
+        "cluster": "medium",
+        "victims": 19.99
       }, 
       "id": 18
     }, 
@@ -42804,7 +42839,9 @@
       "properties": {
         "source": "https://simplemaps.com", 
         "id": "IT45", 
-        "name": "Emilia-Romagna"
+        "name": "Emilia-Romagna",
+        "cluster": "low",
+        "victims": 16.39
       }, 
       "id": 19
     }, 
@@ -44856,7 +44893,9 @@
       "properties": {
         "source": "https://simplemaps.com", 
         "id": "IT57", 
-        "name": "Marche"
+        "name": "Marche",
+        "cluster": "medium",
+        "victims": 21.21
       }, 
       "id": 20
     }
