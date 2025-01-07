@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="geo_col" type="xstring" isnull="true" value=""/>
+        <entry key="color_map" type="xstring" value="YlOrRd_09"/>
+        <entry key="weight_col" type="xstring" isnull="true" value=""/>
+        <entry key="radius" type="xint" value="25"/>
+        <entry key="blur" type="xint" value="15"/>
+        <entry key="min_opacity" type="xdouble" value="0.5"/>
+        <entry key="max_zoom" type="xint" value="18"/>
+        <config key="basemap_settings">
+            <entry key="json-type_Internals" type="xstring" value="OBJECT"/>
+            <entry key="base_map" type="xstring" value="OpenStreetMap"/>
+        </config>
+        <config key="legend_settings">
+            <entry key="json-type_Internals" type="xstring" value="OBJECT"/>
+            <entry key="plot" type="xboolean" value="false"/>
+            <entry key="caption" type="xstring" value=""/>
+        </config>
+        <entry key="json-type_Internals" type="xstring" value="OBJECT"/>
+        <entry key="extension_version_Internals" type="xstring" value="1.3.0"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.python3.nodes.extension.ExtensionNodeSetFactory$DynamicExtensionNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Spatial Heatmap"/>
+    <entry key="node-bundle-name" type="xstring" value="Geospatial Analytics Extension for KNIME"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="sdl.harvard.geospatial"/>
+    <entry key="node-bundle-vendor" type="xstring" value="SDL, Harvard, Cambridge US"/>
+    <entry key="node-bundle-version" type="xstring" value="1.3.0.202412051319"/>
+    <entry key="node-feature-name" type="xstring" value="Geospatial Analytics Extension for KNIME"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="sdl.harvard.features.geospatial.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="SDL, Harvard, Cambridge US"/>
+    <entry key="node-feature-version" type="xstring" value="1.3.0.202412051319"/>
+    <entry key="factory-id-uniquifier" type="xstring" value="sdl.harvard.geospatial_!_ViewNodeHeatmap"/>
+    <config key="factory_settings">
+        <entry key="extension_id" type="xstring" value="sdl.harvard.geospatial"/>
+        <entry key="node_id" type="xstring" value="ViewNodeHeatmap"/>
+    </config>
+    <config key="node_creation_config">
+        <config key="Input Table to Visualize # 0"/>
+    </config>
+    <entry key="name" type="xstring" value="Spatial Heatmap"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports"/>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>
