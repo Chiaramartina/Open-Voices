@@ -278,10 +278,12 @@
               </div>
               <!-- Maps -->
               <div class="row justify-content-center" id="map-container">
-
-                <div class="col-md-4">
-                  <div class="map" id="map_regions"></div>
+                <div class="col-md-12">
+                  <div class="map" id="map_regions" style="width: 100%; height: 100vh;"></div>
                 </div>
+              </div>
+              
+              
 
               </div>
               <!-- Bar chart -->
@@ -2798,20 +2800,20 @@
       <!-- Contenitore principale che tiene il grafico e il pannello di controllo -->
       <div class="chart-container-wrapper">
         <!-- Contenitore del grafico -->
-        <div id="chart-container"></div>
+        <div id="chart-container-violence"></div>
 
     <div id="controls">
         <h2>Controlli</h2>
         <div>
             <label for="stereotype-dropdown">Scegli uno stereotipo:</label>
-            <select id="stereotype-dropdown" onchange="updateChart()">
+            <select id="stereotype-dropdown-violence" onchange="updateChart()">
                 <option value= "a young man slaps his girlfriend because she flirted with another man">a young man slaps his girlfriend because she flirted with another man</option>
                 <option value= "in a couple’s relationship,it is normal that a slap might occasionally occur">in a couple’s relationship,it is normal that a slap might occasionally occur</option>
                 <option value= "a man habitually control his wife’s/partner’s mobile phone and activities on social media">a man habitually control his wife’s/partner’s mobile phone and activities on social media</option>
                </select>
         </div>
 
-        <div class="region-checkboxes" id="region-checkboxes"></div>
+        <div class="region-checkboxes" id="region-checkboxes-violence"></div>
       </div>
       </div>
       <!-- END chart-container-wrapper -->

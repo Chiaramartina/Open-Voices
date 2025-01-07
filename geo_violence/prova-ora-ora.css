@@ -11,7 +11,7 @@
 }
 
 /* Contenitore del grafico */
-#chart-container {
+#chart-container-violence {
     flex-grow: 1;                      /* Permette al grafico di crescere e occupare spazio disponibile */
     flex-shrink: 0;                    /* Impedisce al grafico di rimpicciolirsi oltre una certa dimensione */
     height: 500px;                     /* Imposta l'altezza del grafico */
@@ -71,10 +71,10 @@ select, input[type="checkbox"] {
 }
 
 /* Impostiamo la dimensione del font per il select e le opzioni */
-#stereotype-dropdown {
+#stereotype-dropdown-violence {
     font-size: 12px;  /* Imposta la dimensione del font per il select */
 }
 
-#stereotype-dropdown option {
+#stereotype-dropdown-violence option {
     font-size: 12px;  /* Imposta la dimensione del font per le opzioni */
 }

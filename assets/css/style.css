@@ -2247,3 +2247,10 @@ h3.analysis-second-title {
 }#rel17_8{
 
 } */
+
+#map_regions {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50vh;
+}

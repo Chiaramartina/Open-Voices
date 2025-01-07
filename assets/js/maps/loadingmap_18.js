@@ -29,7 +29,7 @@
 
 
     $(document).ready(function() { 
-      var map_regions = L.map('map_regions').setView([42.5, 12.5], 5);
+      var map_regions = L.map('map_regions').setView([42.5, 12.5], 6);
   
       // Add a tile layer to the map
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {

@@ -2731,7 +2731,7 @@ var datas = [
 
         // Funzione per creare le checkbox per ogni regione
         function createRegionCheckboxes() {
-            var container = document.getElementById('region-checkboxes');
+            var container = document.getElementById('region-checkboxes-violence');
             territories.forEach(territory => {
                 var checkbox = document.createElement('input');
                 checkbox.type = 'checkbox';
@@ -2753,7 +2753,7 @@ var datas = [
         }
 
         function updateChart() {
-    var selectedStereotype = document.getElementById("stereotype-dropdown").value;
+    var selectedStereotype = document.getElementById("stereotype-dropdown-violence").value;
 
     // Otteniamo le regioni selezionate
     var selectedTerritories = territories.filter(territory => document.getElementById(territory).checked);
@@ -2826,7 +2826,7 @@ var datas = [
         hovermode: 'x unified'
     };
 
-    Plotly.newPlot('chart-container', data, layout);
+    Plotly.newPlot('chart-container-violence', data, layout);
 }
 
         
