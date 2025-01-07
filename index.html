@@ -2798,27 +2798,21 @@
       <!-- Contenitore principale che tiene il grafico e il pannello di controllo -->
       <div class="chart-container-wrapper">
         <!-- Contenitore del grafico -->
-        <div id="chart-container">
-          <!-- Il grafico interattivo sarà renderizzato qui -->
+        <div id="chart-container"></div>
+
+    <div id="controls">
+        <h2>Controlli</h2>
+        <div>
+            <label for="stereotype-dropdown">Scegli uno stereotipo:</label>
+            <select id="stereotype-dropdown" onchange="updateChart()">
+                <option value= "a young man slaps his girlfriend because she flirted with another man">a young man slaps his girlfriend because she flirted with another man</option>
+                <option value= "in a couple’s relationship,it is normal that a slap might occasionally occur">in a couple’s relationship,it is normal that a slap might occasionally occur</option>
+                <option value= "a man habitually control his wife’s/partner’s mobile phone and activities on social media">a man habitually control his wife’s/partner’s mobile phone and activities on social media</option>
+               </select>
         </div>
 
-        <!-- Contenitore dei controlli -->
-        <div id="controls">
-          <h5>Choose a Region</h5>
-
-          <!-- Dropdown per selezionare il tipo di stereotipo -->
-          <label for="stereotype-dropdown">Select a stereotype:</label>
-          <select class="countrydata2" id="stereotype-dropdown" onchange="updateChart()">
-            <option value="women can provoke sexual violence by how they dress">women can provoke sexual violence by how they dress</option>
-            <option value="women who don’t want to have a sexual intercourse are able to avoid it">women who don’t want to have a sexual intercourse are able to avoid it</option>
-            <option value="serious women don’t get raped">serious women don’t get raped</option>
-            <option value="if a husband/partner forces his wife/partner to have sex against her will,it isn’t sexual violence">if a husband/partner forces his wife/partner to have sex against her will,it isn’t sexual violence</option>
-            <option value="faced with a sexual proposal,women often say no but in reality mean yes">faced with a sexual proposal,women often say no but in reality mean yes</option>
-          </select>
-
-          <!-- Selezione delle regioni -->
-          <div class="region-checkboxes" id="region-checkboxes"></div>
-        </div>
+        <div class="region-checkboxes" id="region-checkboxes"></div>
+      </div>
       </div>
       <!-- END chart-container-wrapper -->
     </div>
@@ -3361,6 +3355,8 @@ All rights reserved. (<a href= "https://github.com/Leaflet/Leaflet/blob/main/LIC
   <script src="assets/js/pie_charts/pie-total.js"></script>
 
   <script src="/geo_opinions/prova-ora.js"></script>
+  <script src="/geo_violence/geo-partner.js"></script>
+
   <!-- bubble charts -->
 
   <script src="assets/js/plotly_graphs/bubble-charts/bubble-chart-17-edu-preg (1)/plotlyjs-bundle.js"></script>
