@@ -3048,35 +3048,39 @@
       </div> <!-- End of 2019 -->
 
 
-      <!-- Time series -->
+
       <div class="section-title justify-content-center" data-aos="fade-up" data-aos-delay="250">
-        <p class="factor-text">TRENDS OVER TIME</p>
+        <p class="factor-text">bubble chart</p> 
         <p>
-          Finally, we can observe how our chosen parameters have <b>evolved over the timespan</b> of our study in each
+          Finally, we can observe how our chosen variables correlate in our study in each 
           specific region.
         </p>
         <br>
-
+      
         <div class="container time-series align-items-center justify-content-center" data-num="2">
-
-          <!-- Plot container -->
-          <!-- id displaying the plot -->
-          <div class="time-series-plot" id="time-series-general"></div>
-
-          <!-- browser menu -->
-
-          <div class="click-instruction">
-            <span class="underlined--bg-g underlined--offset--bg-g"><b>Select a region!</b></span>
-          </div>
-
-          <div class="control-row">
-            <select class="countrydata2">
-              <!-- <option value="">Select Region</option> -->
+          <!-- Controls for the bubble chart -->
+          <div id="controls">
+            <label for="cause-select">Select a Cause:</label>
+            <select id="cause-select">
+              <option value="all">All Causes</option>
+              <option value="difficulty in managing anger">Difficulty in Managing Anger</option>
+              <option value="considering women to be property">Considering Women to Be Property</option>
+              <option value="having negative experiences of family violence as a child">Negative Family Experiences as a Child</option>
+              <option value="religious reasons">Religious Reasons</option>
+              <option value="not standing women’s empowerment">Not Standing Women’s Empowerment</option>
+              <option value="abuse of drugs or alcohol">Abuse of Drugs or Alcohol</option>
+              <option value="need to feel superior than one’s partner/wife">Need to Feel Superior</option>
             </select>
           </div>
+      
+          <!-- Plot container -->
+          <div id="chart-bubble" class="chart-bubble"></div>
+          <div id="tooltip" class="tooltip"></div>
         </div><!-- END plot container -->
-
+      
       </div>
+      
+
 
       <div class="container">
         <div class="row content">
@@ -3339,10 +3343,8 @@ All rights reserved. (<a href= "https://github.com/Leaflet/Leaflet/blob/main/LIC
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-  <!-- Leaflet maps -->
-  <script src="assets/js/maps/loadingmap.js"></script>
-  <script src="assets/js/maps/loadingmap_18.js"></script>
-  <script src="assets/js/maps/loadingmap_19.js"></script>
+  <!-- Leaflet map -->
+  <script src="assets/js/maps/geomap.js"></script>
 
 
   <script src="assets/js/italy_regions.js"></script>
@@ -3351,8 +3353,10 @@ All rights reserved. (<a href= "https://github.com/Leaflet/Leaflet/blob/main/LIC
   <script src="assets/js/plotly_graphs/bar-charts/bar-percentage-18.js"></script>
   <script src="assets/js/plotly_graphs/bar-charts/bar-percentage-19.js"></script>
 
-<!-- time-series -->
-  <script src="assets/js/plotly_graphs/time-series/time-series-general.js"></script>
+<!-- bubble chart -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="visualisations/bubble/bubble_chart.js"></script>
+
 <!-- pie-charts -->
   <script src="assets/js/pie_charts/pie-total.js"></script>
 
@@ -3360,10 +3364,6 @@ All rights reserved. (<a href= "https://github.com/Leaflet/Leaflet/blob/main/LIC
   <script src="/geo_violence/geo-partner.js"></script>
 
   <!-- bubble charts -->
-
-  <script src="assets/js/plotly_graphs/bubble-charts/bubble-chart-17-edu-preg (1)/plotlyjs-bundle.js"></script>
-  <script type="text/javascript"
-    src="assets/js/plotly_graphs/bubble-charts/bubble-chart-17-edu-preg (1)/figure.js"></script>
 
 
 </body>
