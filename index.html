@@ -99,6 +99,7 @@
           <li class="dropdown"><a href=""><span>Documentation</span><i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a class="nav-link scrollto" href="#analyses">Analyses</a></li>
+              <li><a class="nav-link scrollto" href="#pre">Preprocessing</a></li>
               <li><a class="nav-link scrollto" href="#viz">Visualizations</a></li>
               <li><a class="nav-link scrollto" href="#sustain">Sustainability</a></li>
             </ul>
@@ -260,7 +261,7 @@
 
 
 
-        <!-- 2018 -->
+        <!-- Geo Map -->
         <div class="container analysis-card" id="second_year" data-bs-parent="#results">
           <div class="align-items-stretch mb-5 mb-lg-0">
             <div class="analysis-box">
@@ -278,29 +279,14 @@
                 <div class="col-md-4">
                 </div>
               </div>
-              <!-- Maps -->
+              <!-- Map -->
               <div class="row justify-content-center" id="map-container">
                 <div class="col-md-12">
                   <div class="map" id="map_regions" style="width: 100%; height: 100vh;"></div>
                 </div>
               </div>
               
-              
 
-              </div>
-              <!-- Bar chart -->
-              <br>
-              <div class="text-center">
-                <p class="factor-text" style="padding-top:2em; margin-bottom:0;">Bar chart</p>
-              </div>
-              <div class="row justify-content-center">
-                <div class="col-md-10">
-                  <div class="bar-graph" id="bar-graph-18"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
     </section><!-- End Results Section -->
 
@@ -580,21 +566,6 @@
                 <a href="data/mashupDS/MD3_19.csv" download>MD3_19</a>
               </p>
             </div>
-          </div>
-        </div>
-
-        <div class="row content">
-          <div class="" data-aos="fade-up" data-aos-delay="150">
-            <p>
-              <a href="documentation/CLEAN.ipynb"
-                target="_blank" style="vertical-align: middle;"><span
-                  class="material-symbols-outlined">download</span></a>
-              Download the Jupyter Noteboook on the clean up phase<br>
-              <a href="documentation/MASHUP.ipynb"
-                target="_blank" style="vertical-align: middle;"><span
-                  class="material-symbols-outlined">download</span></a>
-              Download the Jupyter Noteboook on the mashup phase
-            </p>
           </div>
         </div>
 
@@ -2612,7 +2583,7 @@
 
 
     <!-- ======= Processing Section ======= -->
-    <section id="viz" class="about section-bg">
+    <section id="pre" class="about section-bg">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
@@ -2620,16 +2591,18 @@
         </div>
         <!-- Introduction to the visualizations-->
         <div class="row content">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+          <div class="pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="150">
             <p>
-                KNIME workflow</p>
+              The source datasets were processed using KNIME software, a powerful platform for data analytics and workflow automation. Various operations were carried out to clean, preprocess, and mash up the data, ensuring that it was structured and ready for analysis. These operations included data cleansing steps such as handling missing values, standardizing formats, and removing duplicates, as well as combining multiple data sources to create the mashup dataset. The entire workflow, which outlines each step of the data transformation process, is available for download here, providing full transparency and enabling replication of the analysis.</p>
           </div>
-          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="200">
+          <div class="pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="200">
             <p>
-              The visualizations have been developed using a variety of libraries like <b>plotly.js</b> (for the bar charts).
+        
+              <img src="workflow.svg" alt="Workflow KNIME" width="100%" />
             </p>
+            <p>The entire workflow, which outlines each step of the data transformation process, is available for consultaion in the image above, providing full transparency and enabling replication of the analysis.</p>
             <p>
-              The data has been processed further to build the different visualizations.
+              Additionally, the KNIME workflow is available for download <a href="KNIME_project.knwf" download="KNIME_project.knwf">here</a>, allowing users to access the cleaned and integrated data for their own analysis or research purposes.
             </p>
           </div>
         </div>    
@@ -2641,7 +2614,7 @@
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>Additional visualizations</h2>
+          <h2>Visualizations</h2>
         </div>
         <!-- Introduction to the visualizations-->
         <div class="row content">
@@ -2697,6 +2670,10 @@
     <p class="analysis-text">
       The bar chart visualization was included as well, since it offers us an <b>immediate and clear
         comparison</b> between values of each of our variables.
+    </p>
+    <h5><span class="underlined underlined--offset"><b>bubble chart</b></span></h5>
+    <p class="analysis-text">
+      ...
     </p>
   </div>
   <div class="pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
