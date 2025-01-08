@@ -25,11 +25,11 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  background-color: #f6f2e7;
+  background-color: #f6e7eb;
 }
 
 a {
-  color: #557c70;
+  color: #98181f;
   /* 557c70 */
   text-decoration: none;
 }
@@ -141,7 +141,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #557c70;
+  background: #98181f;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -155,7 +155,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #92aba2;
+  background: #ab9292;
   color: #fff;
 }
 
@@ -180,7 +180,7 @@ h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 13px 0;
-  background: #557c70;
+  background: #98181f;
 }
 
 #header.header-scrolled {
@@ -199,7 +199,7 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #222222;
+  color: #edededf7;
   text-decoration: none;
 }
 
@@ -239,7 +239,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 400;
-  color: #555555;
+  color: #c7c7c7ea;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -255,7 +255,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #c5dfc1;
+  color: #ffff;
 }
 
 .navbar .getstarted,
@@ -296,6 +296,7 @@ h6 {
 .navbar .dropdown ul a {
   padding: 10px 20px;
   font-size: 14px;
+  color: #8d8d8d;
 }
 
 .navbar .dropdown ul a i {
@@ -306,7 +307,7 @@ h6 {
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul .active,
 .navbar .dropdown ul li:hover>a {
-  color: #557c70;
+  color: #98181f;
 }
 
 .navbar .dropdown:hover>ul {
@@ -410,7 +411,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #557c70;
+  color: #98181f;
 }
 
 .navbar-mobile .getstarted,
@@ -445,7 +446,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #557c70;
+  color: #98181f;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -485,13 +486,13 @@ h6 {
   padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  color: #557c70;
-  border: 2px solid #557c70;
+  color: #98181f;
+  border: 2px solid #98181f;
   margin-left: 5.4em;
 }
 
 #hero .btn-get-started:hover {
-  background: #557c70;
+  background: #98181f;
   color: #fff;
 }
 
@@ -601,7 +602,7 @@ section {
   content: "";
   width: 50px;
   height: 2px;
-  background: #557c70;
+  background: #98181f;
   display: inline-block;
 }
 
@@ -704,7 +705,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #557c70;
+  color: #98181f;
   line-height: 1;
 }
 
@@ -722,15 +723,15 @@ section {
   border-radius: 50px;
   transition: 0.3s;
   line-height: 1;
-  color: #557c70;
+  color: #98181f;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #557c70;
+  border: 2px solid #98181f;
 }
 
 .about .content .btn-learn-more:hover {
-  background: #557c70;
+  background: #98181f;
   color: #fff;
   text-decoration: none;
 }
@@ -769,7 +770,7 @@ section {
 .counts .content .count-box i {
   display: block;
   font-size: 36px;
-  color: #557c70;
+  color: #98181f;
   float: left;
   line-height: 0;
 }
@@ -854,7 +855,7 @@ section {
 #results-buttons li:hover,
 #results-buttons li:focus {
   color: #fff;
-  background: #557c70;
+  background: #98181f;
 }
 
 #results-flters li:last-child {
@@ -878,7 +879,7 @@ section {
   content: "";
   width: 20px;
   height: 1px;
-  background: #557c70;
+  background: #98181f;
   display: inline-block;
 }
 
@@ -949,7 +950,7 @@ blockquote {
 }
 
 .datasets .content ul li a:hover {
-  color: #557c70;
+  color: #98181f;
   text-decoration: none;
 }
 
@@ -962,7 +963,7 @@ blockquote {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #557c70;
+  color: #98181f;
   line-height: 1;
 }
 
@@ -1027,7 +1028,7 @@ blockquote {
 .services .icon-box::before {
   content: "";
   position: absolute;
-  background: #b5d0c7;
+  background: #d0b5ba;
   right: -60px;
   top: -40px;
   width: 100px;
@@ -1038,7 +1039,7 @@ blockquote {
 }
 
 .services .icon-box:hover::before {
-  background: #557c70;
+  background: #98181f;
   right: 0;
   top: 0;
   width: 100%;
@@ -1073,7 +1074,7 @@ blockquote {
 .services .analysis-box-title i {
   font-size: 36px;
   line-height: 1;
-  color: #557c70;
+  color: #98181f;
 }
 
 .analysis-title {
@@ -1103,7 +1104,7 @@ h3.analysis-second-title {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  background: #557c70;
+  background: #98181f;
   transition: all 0.3s ease-in-out;
 }
 
@@ -1144,7 +1145,7 @@ h3.analysis-second-title {
 }
 
 .services .icon-box:hover .icon i {
-  color: #557c70;
+  color: #98181f;
 }
 
 .analysis-card {
@@ -1158,7 +1159,7 @@ h3.analysis-second-title {
   position: relative;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
-  border: #557c70 solid 2px;
+  border: #98181f solid 2px;
   border-radius: 8px;
   z-index: 2;
 }
@@ -1234,7 +1235,7 @@ h3.analysis-second-title {
 
 /* Technical analysis tabs */
 .nav-link {
-  color: #557c70;
+  color: #98181f;
 }
 
 .nav-link:hover {
@@ -1295,7 +1296,7 @@ h3.analysis-second-title {
 }
 
 .more-services .card:hover .card-body {
-  background: #557c70;
+  background: #98181f;
 }
 
 .more-services .card:hover .read-more a,
@@ -1420,11 +1421,11 @@ h3.analysis-second-title {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #557c70;
+  border: 1px solid #98181f;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #557c70;
+  background-color: #98181f;
 }
 
 @media (max-width: 767px) {
@@ -1479,7 +1480,7 @@ h3.analysis-second-title {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #557c70;
+  background: #98181f;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1592,11 +1593,11 @@ h3.analysis-second-title {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #557c70;
+  border: 1px solid #98181f;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #557c70;
+  background-color: #98181f;
 }
 
 .portfolio-details .portfolio-info {
@@ -1681,7 +1682,7 @@ h3.analysis-second-title {
 }
 
 .team .member .social a:hover {
-  color: #557c70;
+  color: #98181f;
 }
 
 .team .member .social i {
@@ -1831,7 +1832,7 @@ h3.analysis-second-title {
 }
 
 .faq .faq-item i {
-  color: #557c70;
+  color: #98181f;
   font-size: 24px;
   float: left;
   line-height: 0;
@@ -2171,7 +2172,7 @@ h3.analysis-second-title {
 #viz-buttons li:hover,
 #viz-buttons li:focus {
   color: #fff;
-  background: #557c70;
+  background: #98181f;
 }
 
 .pie-chart {
@@ -2253,11 +2254,16 @@ h3.analysis-second-title {
 }
 
 
-.chart-bubble {
+/* Contenitore principale per il grafico */
+#content-bubble-chart {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;  /* Gli elementi saranno disposti in colonna */
+  align-items: center;     /* Centra gli elementi orizzontalmente */
+  justify-content: center; /* Centra gli elementi verticalmente */
+  width: 100%;             /* Occupare tutta la larghezza disponibile */
+  margin: 0 auto;          /* Centra il contenitore */
 }
+<<<<<<< HEAD
 .tooltip {
   position: absolute;
   background-color: #fff;
@@ -2268,3 +2274,55 @@ h3.analysis-second-title {
   pointer-events: none;
   visibility: hidden;
 }
+
+#viz-buttons .map-li {
+  border: 2px solid black;  
+  padding: 12px 15px;         
+  border-radius: 5px;       
+  margin: 5px;                
+  cursor: pointer;          
+  transition: background-color 0.3s ease; 
+  min-width: 80px;           
+  text-align: center;       
+}
+
+#viz-buttons .map-li:hover {
+  background-color: #000000;  
+}
+=======
+
+/* Contenitore per i controlli */
+#controls {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Stile del selettore */
+#cause-select {
+  padding: 5px;
+  font-size: 14px;
+  margin-top: 10px;
+  width: 200px;
+}
+
+/* Contenitore del grafico */
+#chartContainer {
+  width: 100%;
+  height: 500px;   /* Imposta un'altezza per il grafico */
+  margin-top: 20px; /* Distanza tra i controlli e il grafico */
+}
+
+/* Per aggiungere margini e separazioni tra il titolo e gli altri elementi */
+.factor-text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.container-bubble {
+  padding: 20px;
+}
+
+>>>>>>> fe7dea5d61965228fc645f1c0880f72599470fcc
