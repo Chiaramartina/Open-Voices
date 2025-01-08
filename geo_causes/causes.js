@@ -1,5 +1,4 @@
-   // Dati forniti
-   var data_causes = [
+var data_causes = [
     {
         "Territory": "Piemonte",
         "Possible causes": "difficulty in managing anger",
@@ -1066,44 +1065,44 @@
     }
 ]
 
-        // Funzione per ottenere i dati relativi a una determinata "Territory"
-        function getValuesByRegion(region) {
-            return data_causes.filter(item => item.Territory === region);
-        }
+// Funzione per ottenere i dati relativi a una determinata "Territory"
+function getValuesByRegionCauses(region) {
+    return data_causes.filter(item => item.Territory === region);
+}
 
-        // Colori per le cause
-        var causeColors = [
-            '#1a0508', 
-            '#33090f',
-            '#66121d',
-            '#892e19',
-            '#ab4a15',
-            '#cd6611',
-            '#ef820d'
-        ];
+// Colori per le cause
+var causeColors = [
+    '#1a0508', 
+    '#33090f',
+    '#66121d',
+    '#892e19',
+    '#ab4a15',
+    '#cd6611',
+    '#ef820d'
+];
 
-        // Recuperiamo tutte le regioni uniche
-        var regions = [...new Set(data_causes.map(item => item.Territory))];
-        var causes = [...new Set(data_causes.map(item => item["Possible causes"]))];
+// Recuperiamo tutte le regioni uniche
+var regionscauses = [...new Set(data_causes.map(item => item.Territory))];
 
-        // Funzione per creare il dropdown delle regioni
-        function createRegionDropdown() {
-            var dropdown = document.getElementById('region-dropdown-causes');
-            regions.forEach(region => {
-                var option = document.createElement('option');
-                option.value = region;
-                option.textContent = region;
-                dropdown.appendChild(option);
-            });
-        }
+// Funzione per creare il dropdown delle regioni
+function createRegionDropdownCauses() {
+    var dropdown = document.getElementById('region-dropdown-causes');
+    regionscauses.forEach(region => {
+        var option = document.createElement('option');
+        option.value = region;
+        option.textContent = region;
+        dropdown.appendChild(option);
+    });
+}
 
-        // Funzione per aggiornare il grafico in base alla selezione
-        function updateChart() {
-    var selectedRegion = document.getElementById("region-dropdown-causes").value;
+// Funzione per aggiornare il grafico in base alla selezione
+function updateChart() {
+    var selectedRegionCause = document.getElementById("region-dropdown-causes").value;
 
-    var causeData = getValuesByRegion(selectedRegion);
+    // Otteniamo i dati della regione selezionata
+    var causeDataCause = getValuesByRegionCauses(selectedRegionCause);
 
-    var trace = causeData.map((item, index) => {
+    var trace = causeDataCause.map((item, index) => {
         var causesValue = parseFloat(item["Causes Value"]);
 
         return {
@@ -1111,17 +1110,17 @@
             y: [causesValue],
             type: 'bar',
             marker: {
-                color: causeColors[index % causeColors.length]  
+                color: causeColors[index % causeColors.length]  // Colori per le barre
             },
-            hovertemplate: 'Causes Value : %{y}<extra></extra>'  // Mostra solo "Causes Value"
+            hovertemplate: 'Causes Value: %{y}<extra></extra>'  // Mostra solo il valore della causa
         };
     });
 
-    var layout = {
+    var layoutcauses = {
         barmode: 'group',
         xaxis: {
             title: 'Causes',
-            tickangle: 25,  // Le etichette sono orizzontali
+            tickangle: 25,  // Le etichette sono inclinate
             automargin: true,  // Aggiungi margini automatici per le etichette lunghe
             tickfont: {
                 size: 12,  // Imposta la dimensione del font
@@ -1133,24 +1132,22 @@
         },
         showlegend: false,
         hovermode: 'x unified',
-       
-   
     };
 
-    Plotly.newPlot('chart-container-causes', trace, layout);
+    Plotly.newPlot('chart-container-causes', trace, layoutcauses);
 }
 
+// Funzione per dividere il testo lungo in due righe
+function wrapText(text, maxLength) {
+    if (text.length > maxLength) {
+        var midpoint = Math.floor(text.length / 2);
+        return text.substring(0, midpoint) + '<br>' + text.substring(midpoint);
+    }
+    return text;
+}
 
-
-        // Funzione per dividere il testo lungo in due righe
-        function wrapText(text, maxLength) {
-            if (text.length > maxLength) {
-                var midpoint = Math.floor(text.length / 2);
-                return text.substring(0, midpoint) + '<br>' + text.substring(midpoint);
-            }
-            return text;
-        }
-
-        // Carica inizialmente il grafico e il dropdown
-        createRegionDropdown();
-        updateChart();
+// Carica inizialmente il grafico e il dropdown
+document.addEventListener("DOMContentLoaded", function() {
+    createRegionDropdownCauses();
+    updateChart();
+});
