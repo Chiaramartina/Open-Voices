@@ -2257,13 +2257,9 @@ h3.analysis-second-title {
 /* Contenitore principale per il grafico */
 #content-bubble-chart {
   display: flex;
-  flex-direction: column;  /* Gli elementi saranno disposti in colonna */
-  align-items: center;     /* Centra gli elementi orizzontalmente */
-  justify-content: center; /* Centra gli elementi verticalmente */
-  width: 100%;             /* Occupare tutta la larghezza disponibile */
-  margin: 0 auto;          /* Centra il contenitore */
+  justify-content: center;
+  align-items: center;
 }
-<<<<<<< HEAD
 .tooltip {
   position: absolute;
   background-color: #fff;
@@ -2274,55 +2270,3 @@ h3.analysis-second-title {
   pointer-events: none;
   visibility: hidden;
 }
-
-#viz-buttons .map-li {
-  border: 2px solid black;  
-  padding: 12px 15px;         
-  border-radius: 5px;       
-  margin: 5px;                
-  cursor: pointer;          
-  transition: background-color 0.3s ease; 
-  min-width: 80px;           
-  text-align: center;       
-}
-
-#viz-buttons .map-li:hover {
-  background-color: #000000;  
-}
-=======
-
-/* Contenitore per i controlli */
-#controls {
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-/* Stile del selettore */
-#cause-select {
-  padding: 5px;
-  font-size: 14px;
-  margin-top: 10px;
-  width: 200px;
-}
-
-/* Contenitore del grafico */
-#chartContainer {
-  width: 100%;
-  height: 500px;   /* Imposta un'altezza per il grafico */
-  margin-top: 20px; /* Distanza tra i controlli e il grafico */
-}
-
-/* Per aggiungere margini e separazioni tra il titolo e gli altri elementi */
-.factor-text {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.container-bubble {
-  padding: 20px;
-}
-
->>>>>>> fe7dea5d61965228fc645f1c0880f72599470fcc
