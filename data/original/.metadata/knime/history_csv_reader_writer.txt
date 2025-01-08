@@ -1,0 +1,10 @@
+/Users/chiaramartina/Desktop/Open-Voices/VICTIMCAUSES.csv
+/Users/chiaramartina/Desktop/Open-Voices/CAUSES.csv
+/Users/chiaramartina/Desktop/OPEN ACCESS AND DIGITAL ETICHS/opinions2.csv
+/Users/chiaramartina/Desktop/geoopinionviolence.csv
+/Users/chiaramartina/Desktop/Open-Voices/data/original/D3_OPINIONS_PARTNER_GEOAREAS.csv
+/Users/chiaramartina/Desktop/Open-Voices/data/original/D2_OPINIONS_VIOLENCE_GEOAREAS.csv
+/Users/chiaramartina/Desktop/Open-Voices/data/original/D4_VICTIMS.csv
+/Users/chiaramartina/Desktop/Open-Voices/data/original/D1_POPULATION.csv
+/Users/chiaramartina/Desktop/Open-Voices/data/original/D5_CAUSES_INDICATION.csv
+/Users/chiaramartina/Desktop/Open-Voices/data/original/CAUSES_INDICATION.csv

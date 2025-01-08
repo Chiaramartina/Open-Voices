@@ -1,0 +1,67 @@
+#chart-container {
+    width: 70%;
+    height: 500px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: flex;
+    justify-content: center;  /* Centra il contenuto orizzontalmente */
+    align-items: center;      /* Centra il contenuto verticalmente */
+    margin: 0 auto;           /* Centra il contenitore */
+    overflow: hidden;         /* Nasconde gli eventuali spazi indesiderati */
+}
+
+.chart-container-wrapper {
+    display: flex; /* Posiziona gli elementi in riga */
+    align-items: flex-start; /* Allinea verticalmente in alto */
+    gap: 20px; /* Spazio tra il grafico e il pannello dei controlli */
+    justify-content: center; /* Centra il contenuto */
+}
+
+#chart-container-causes {
+    width: 70%;  /* Impostato al 70% come nel caso di "causes" */
+    height: 500px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: flex;
+    justify-content: center;  /* Centra il contenuto orizzontalmente */
+    align-items: center;      /* Centra il contenuto verticalmente */
+    margin: 0 auto;           /* Centra il contenitore */
+    overflow: hidden;         /* Nasconde gli eventuali spazi indesiderati */}
+
+#controls-causes {
+    width: 30%;  /* Occupa il 30% della larghezza */
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: auto; 
+    max-height: 500px;  /* Limita l'altezza massima come nel caso di "causes" */
+    overflow-y: auto;    /* Permette lo scorrimento verticale */
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;  /* Assicurati che l'altezza e la larghezza siano calcolate correttamente */
+}
+
+#controls-causes h2 {
+    text-align: center;
+    color: #333;
+}
+
+#region-dropdown-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}

@@ -33,8 +33,10 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <link href="/geo_opinions/prova-ora-ora.css" rel="stylesheet">
-  <link href="/geo_violence/prova-ora-ora.css" rel="stylesheet">
+  <link href="/geo_opinions/opinions.css" rel="stylesheet">
+  <link href="/geo_victims/cvictim.css" rel="stylesheet">
+  <link href="/geo_causes/gcauses.css" rel="stylesheet">
+
 
   <!-- Import jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
@@ -2706,17 +2708,15 @@
         <div class="row content">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
             <p>
-              Different graphic representations of the data allow for more in-depth research on the topic of our
-              project, as well as permitting the analysis of <span
-              class="underlined--bg-g underlined--offset--bg-g"><b>possible correlations</b></span> between the factors of interest (through bubble charts), <span
-              class="underlined--bg-g underlined--offset--bg-g"><b>different outcomes of the pregnancies</b></span> (through pie charts), and <span
-                class="underlined--bg-g underlined--offset--bg-g"><b>chronological trends</b></span> (through time series) in each region.
+                This section presents the results of a survey on gender role stereotypes and attitudes toward violence against women. Conducted by Istat with the Equal Opportunities Department, it analyzes public opinions on stereotypes and the acceptability of violence, <span
+              class="underlined--bg-g underlined--offset--bg-g"><b>it analyzes public opinions on stereotypes and the acceptability of violenc</b></span> <span
+              class="underlined--bg-g underlined--offset--bg-g"><b></b></span>  providing insights into cultural perceptions and their influence on violence prevention efforts. A graph will display the distribution of individuals agreeing with at least one stereotype related to violence. <span
+                class="underlined--bg-g underlined--offset--bg-g"><b></b></span> 
             </p>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="200">
             <p>
-              The visualizations have been developed using a variety of libraries, namely: <b>leaflet</b> (for the
-              maps), <b>plotly.js</b> (for the bar charts, time series, and bubble charts), and <b>amCharts</b> (for the pie charts).
+              The visualizations have been developed using a variety of libraries, namely: <b>plotly.js</b> (for the bar charts).
             </p>
             <p>
               The data has been processed further to build the different visualizations.
@@ -2728,324 +2728,130 @@
 <div class="row" data-aos="fade-up" data-aos-delay="200">
   <div class="click-instruction">
     <span class="underlined--bg-g underlined--offset--bg-g">
-      <b>Click on a year to inspect the bubble charts and pie charts!</b>
+      <b>Click on a year to inspect the bar charts!</b>
     </span>
   </div>
   <div class="col-lg-12 d-flex justify-content-center">
     <ul id="viz-buttons">
-      <li class="map-li" type="button" data-bs-toggle="collapse" data-bs-target="#opviolence" aria-expanded="false">
+      <li class="map-li" type="button" data-bs-toggle="collapse" data-bs-target="#opinions" aria-expanded="false">
         D2
       </li>
-      <li class="map-li" type="button" data-bs-toggle="collapse" data-bs-target="#opviolenc" aria-expanded="false">
+      <li class="map-li" type="button" data-bs-toggle="collapse" data-bs-target="#victim" aria-expanded="false">
         D3
       </li>
-      <li class="map-li" type="button" data-bs-toggle="collapse" data-bs-target="#year19" aria-expanded="false">
-        2019
+      <li class="map-li" type="button" data-bs-toggle="collapse" data-bs-target="#causes" aria-expanded="false">
+        D5
       </li>
     </ul>
   </div>
 </div>
 
-<!-- Collapsible Section for 2017 -->
-<div class="collapse" id="opviolence">
+<!-- Opinions section -->
+<div class="collapse" id="opinions">
   <div class="section-title justify-content-center" data-aos="fade-up" data-aos-delay="250">
-    <p class="factor-text">GEOGRAPHICAL OPINIONS VIOLENCE</p>
+    <p class="factor-text">Opinions about sexual violence </p>
     <p>
-      bla bla bla e bla bla bla
-    </p>
+        This section explores the views of Italian adults on gender roles and sexual violence, broken down by region. The bar graph shows the degree of agreement with various stereotypes. The data show how different regions of Italy respond to these beliefs, highlighting cultural and social variations in perceptions of violence against women.  </p>
     <br>
 
-    <div class="container time-series align-items-center justify-content-center" data-num="2">
+    <div class="container time-series align-items-center justify-content-center" data-num="1">
       <!-- Contenitore principale che tiene il grafico e il pannello di controllo -->
       <div class="chart-container-wrapper">
-        <!-- Contenitore del grafico -->
-        <div id="chart-container">
-          <!-- Il grafico interattivo sarà renderizzato qui -->
-        </div>
+        <div id="chart-container"></div>
 
-        <!-- Contenitore dei controlli -->
-        <div id="controls">
-          <h5>Choose a Region</h5>
-
-          <!-- Dropdown per selezionare il tipo di stereotipo -->
-          <label for="stereotype-dropdown">Select a stereotype:</label>
-          <select class="countrydata2" id="stereotype-dropdown" onchange="updateChart()">
-            <option value="women can provoke sexual violence by how they dress">women can provoke sexual violence by how they dress</option>
-            <option value="women who don’t want to have a sexual intercourse are able to avoid it">women who don’t want to have a sexual intercourse are able to avoid it</option>
-            <option value="serious women don’t get raped">serious women don’t get raped</option>
-            <option value="if a husband/partner forces his wife/partner to have sex against her will,it isn’t sexual violence">if a husband/partner forces his wife/partner to have sex against her will,it isn’t sexual violence</option>
-            <option value="faced with a sexual proposal,women often say no but in reality mean yes">faced with a sexual proposal,women often say no but in reality mean yes</option>
-          </select>
-
-          <!-- Selezione delle regioni -->
-          <div class="region-checkboxes" id="region-checkboxes"></div>
-        </div>
-      </div>
-      <!-- END chart-container-wrapper -->
-    </div>
-    <!-- END plot container -->
-  </div>
-</div>
-
-<!-- Collapsible Section for 2017 -->
-<div class="collapse" id="opviolenc">
-  <div class="section-title justify-content-center" data-aos="fade-up" data-aos-delay="250">
-    <p class="factor-text">GEOGRAPHICAL OPINIONS VIOLENCE</p>
-    <p>
-      bla bla bla e bla bla bla
-    </p>
-    <br>
-
-    <div class="container time-series align-items-center justify-content-center" data-num="2">
-      <!-- Contenitore principale che tiene il grafico e il pannello di controllo -->
-      <div class="chart-container-wrapper">
-        <!-- Contenitore del grafico -->
-        <div id="chart-container-violence"></div>
-
+    <!-- Controlli per selezionare regione e stereotipi -->
     <div id="controls">
-        <h2>Controlli</h2>
+        <h2>Controls</h2>
+
+        <!-- Dropdown per la selezione della regione -->
         <div>
-            <label for="stereotype-dropdown">Scegli uno stereotipo:</label>
-            <select id="stereotype-dropdown-violence" onchange="updateChart()">
-                <option value= "a young man slaps his girlfriend because she flirted with another man">a young man slaps his girlfriend because she flirted with another man</option>
-                <option value= "in a couple’s relationship,it is normal that a slap might occasionally occur">in a couple’s relationship,it is normal that a slap might occasionally occur</option>
-                <option value= "a man habitually control his wife’s/partner’s mobile phone and activities on social media">a man habitually control his wife’s/partner’s mobile phone and activities on social media</option>
-               </select>
+            <label for="region-dropdown">Choose a region:</label>
+            <select id="region-dropdown">
+                <!-- Le opzioni delle regioni saranno aggiunte dinamicamente dal JavaScript -->
+            </select>
         </div>
 
-        <div class="region-checkboxes" id="region-checkboxes-violence"></div>
-      </div>
+        <!-- Sezione per le checkbox degli stereotipi -->
+        <label for="region-dropdown">Select a stereotype:</label>
+        <div id="stereotype-checkboxes" class="stereotype-checkboxes"></div>
+    </div>
+
       </div>
       <!-- END chart-container-wrapper -->
     </div>
     <!-- END plot container -->
   </div>
 </div>
-        <!-- 2019 -->
-        <div class="container collapse analysis-card" id="year19" data-bs-parent="#viz">
-          <div class="align-items-stretch mb-5 mb-lg-0">
-            <div class="analysis-box">
-              <div class="analysis-box-title">
-                <p class="year-result-text">Results for year 2019</p>
-              </div>
 
-              <!-- 2019 tabs -->
-              <nav>
-                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                  <button class="nav-link active" id="bubblecharts19-tab" data-bs-toggle="tab"
-                    data-bs-target="#bubblecharts19" type="button" role="tab" aria-controls="bubblecharts19"
-                    aria-selected="true"><b>Bubble charts</b></button>
-                  <button class="nav-link" id="piecharts19-tab" data-bs-toggle="tab" data-bs-target="#piecharts19"
-                    type="button" role="tab" aria-controls="piecharts19" aria-selected="false"><b>Pie
-                      charts</b></button>
+<!-- Opinions section -->
+<div class="collapse" id="victim">
+    <div class="section-title justify-content-center" data-aos="fade-up" data-aos-delay="250">
+      <p class="factor-text">Acceptability of intimate partner violence</p>
+      <p>
+        This section examines the acceptability of intimate partner violence in different regions of Italy. The bar graph shows the acceptability of various violent behaviors. The data shows the percentage of people who consider these behaviors acceptable or not, broken down by region, contributing to an understanding of cultural differences in opinion about domestic violence.
+      </p>
+      <br>
+  
+      <div class="container time-series align-items-center justify-content-center" data-num="1">
+        <!-- Contenitore principale che tiene il grafico e il pannello di controllo -->
+        <div class="chart-container-wrapper">
+            <div id="chart-container-victims"></div>
+
+            <div id="controls-victims">
+                <h2>Controls</h2>
+                <div>
+                    <label for="region-dropdown-victims">Choose a region:</label>
+                    <select id="region-dropdown-victims" onchange="updateChartVictims()">
+                        <!-- Le regioni saranno aggiunte dinamicamente -->
+                    </select>
                 </div>
-              </nav>
-
-              <!-- Both divs for graphs -->
-              <div class="tab-content" id="nav-tabContent">
-                <!-- Bubblecharts -->
-                <div class="tab-pane fade show active" id="bubblecharts19" role="tabpanel"
-                  aria-labelledby="bubblecharts19-tab">
-                  <p class="explanatory-text">
-                    This section's charts visualise our results using <b>all three parameters</b> (namely pregnancy
-                    rates, religious observance rates and education leavers rates).<br>
-                    Each graph displays the <b>correlation between
-                      two variables</b> at a time (shown in the <b>x and y axes</b>), while the remaining <b>third
-                      variable</b> determines
-                    the <b>size and color intensity of the bubble</b> symbols.
-                  </p>
-
-                  <!-- Religion + pregnancy -->
-                  <div class="row content">
-                    <div class="col-lg-8">
-                      <div class="centered-subtitle">
-                        <p class="factor-text">Religion and pregnancy correlation</p>
-                      </div>
-                      <!-- Code for bubblechart RELIGION + PREGNANCY -->
-                      <div id="bubble-graph-rel-preg19" style="width: 100%; height: 100%;" class="plotly-graph-div">
-                      </div>
-                      <script type="text/javascript">
-                        (function () {
-                          window.PLOTLYENV = { 'BASE_URL': 'https://plotly.com' };
-
-                          var bubble19_a = document.getElementById('bubble-graph-rel-preg19')
-
-
-                          Plotly.plot(bubble19_a, {
-                            data: relPreg19.data,
-                            layout: Object.assign({}, relPreg19.layout, { showlegend: true }),
-                            frames: relPreg19.frames,
-                            config: { "showLink": false, "mapboxAccessToken": "pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2lxMnVvdm5iMDA4dnhsbTQ5aHJzcGs0MyJ9.X9o_rzNLNesDxdra4neC_A" }
-                          });
-
-                        }());
-                      </script>
-                    </div>
-                    <div class="col-lg-4 pt-4 pt-lg-0 text-center align-self-center">
-                      <p class="bubblecharts-text">
-                        For 2019, the correlation between religious observance and pregnancies in the whole population
-                        was
-                        <b>0.363</b>, which is <b>higher</b> than the previous years by <b>0.2</b> and <b>0.34</b>
-                        points respectively.
-                      </p>
-                    </div>
-                  </div>
-
-                  <!-- Education + pregnancy -->
-                  <div class="row content">
-                    <div class="col-lg-8">
-                      <div class="centered-subtitle">
-                        <p class="factor-text">Education and pregnancy correlation</p>
-                      </div>
-                      <!-- Code for bubblechart EDUCATION + PREGNANCY -->
-                      <div id="bubble-graph-edu-preg19" style="width: 100%; height: 100%;" class="plotly-graph-div">
-                      </div>
-                      <script type="text/javascript">
-                        (function () {
-                          window.PLOTLYENV = { 'BASE_URL': 'https://plotly.com' };
-
-                          var bubble19_b = document.getElementById('bubble-graph-edu-preg19')
-
-
-                          Plotly.plot(bubble19_b, {
-                            data: pregEdu19.data,
-                            layout: Object.assign({}, pregEdu19.layout, { showlegend: true }),
-                            frames: pregEdu19.frames,
-                            config: { "showLink": false, "mapboxAccessToken": "pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2lxMnVvdm5iMDA4dnhsbTQ5aHJzcGs0MyJ9.X9o_rzNLNesDxdra4neC_A" }
-                          });
-
-                        }());
-                      </script>
-
-                    </div>
-                    <div class="col-lg-4 pt-4 pt-lg-0 text-center align-self-center">
-                      <p class="bubblecharts-text">
-                        Regarding the correlation of pregnancies and early leavers of education percentages, the value
-                        for 2019 is <b>0.720</b>, substantially <b> greater</b>
-                        than the previous years, by <b>0.3 </b>points for 2017, and <b>0.2</b> points for 2018.
-                      </p>
-                    </div>
-                  </div>
-
-                  <!-- Religion + Education -->
-                  <div class="row content">
-                    <div class="col-lg-8">
-                      <div class="centered-subtitle">
-                        <p class="factor-text">Religion and education correlation</p>
-                      </div>
-                      <!-- Code for bubblechart RELIGION + EDUCATION -->
-                      <div id="bubble-graph-rel-edu19" style="width: 100%; height: 100%;" class="plotly-graph-div">
-                      </div>
-                      <script type="text/javascript">
-                        (function () {
-                          window.PLOTLYENV = { 'BASE_URL': 'https://plotly.com' };
-
-                          var bubble19_c = document.getElementById('bubble-graph-rel-edu19')
-
-
-                          Plotly.plot(bubble19_c, {
-                            data: relEdu19.data,
-                            layout: Object.assign({}, relEdu19.layout, { showlegend: true }),
-                            frames: relEdu19.frames,
-                            config: { "showLink": false, "mapboxAccessToken": "pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2lxMnVvdm5iMDA4dnhsbTQ5aHJzcGs0MyJ9.X9o_rzNLNesDxdra4neC_A" }
-                          });
-
-                        }());
-                      </script>
-                    </div>
-                    <div class="col-lg-4 pt-4 pt-lg-0 text-center align-self-center">
-                      <p class="bubblecharts-text">
-                        Lastly, the fit of religious observance and female early leavers of education for 2019 is
-                        <b>0.614</b>.
-                      </p>
-
-                      <p class="bubblecharts-text">
-                        Interestingly, in the year 2019 we observed <b>significantly higher correlations </b> between
-                        our variables compared
-                        to the previous years, for <b>all
-                          the observed factors.</b>
-                      </p>
-
-
-
-                    </div>
-                  </div>
+                <label for="region-dropdown">Select a behavior:</label>
+                <div id="stereotype-checkboxes-victims" class="checkbox-container-victims">
+                    <!-- Le checkbox saranno aggiunte dinamicamente -->
                 </div>
-
-                <!-- Piecharts -->
-                <div class="tab-pane fade" id="piecharts19" role="tabpanel" aria-labelledby="piecharts19-tab">
-                  <p class="explanatory-text">
-                    This visualisation regards Italy's pregnancy statistics <b>divided by its macro-regions</b> (North,
-                    Centre and South).
-                    The <b>first pie chart</b>, on the left, contains the <b>distribution of values across each
-                      region</b>, while the <b>second one</b>, on the right, comprises<b> detailed statistics regarding
-                      pregnancy outcomes </b>.
-                  </p>
-                  <p class="explanatory-text">
-                    The data used for creating the charts are in percentage values, extracted from the project's second
-                    dataset series (MD2 - Pregnancy rates in young women)
-                    and then transformed into <b>json data</b> for the visualisation.
-                  </p>
-                  <div class="click-instruction">
-                    <span class="underlined--bg underlined--offset--bg"><b>Click on a region to find out specific
-                        pregnancies' characteristics!</b></span>
-                  </div>
-                  <!-- Northern regions 2019 -->
-                  <div class="centered-subtitle">
-                    <p class="factor-text">NORTHERN REGIONS </p>
-                  </div>
-                  <div class="pie-chart" id="piediv-nord-19"></div>
-
-                  <!-- Central regions 2019 -->
-                  <div class="centered-subtitle">
-                    <p class="factor-text">CENTRAL REGIONS</p>
-                  </div>
-                  <div class="pie-chart" id="piediv-centro-19"></div>
-
-                  <!-- Southern regions 2019 -->
-                  <div class="centered-subtitle">
-                    <p class="factor-text">SOUTHERN REGIONS</p>
-                  </div>
-                  <div class="pie-chart" id="piediv-sud-19"></div>
-
-                  <!-- Data summary -->
-                  <p class="year-result-text" style="padding-top:4rem; margin:0;">Data summary (2019)</p>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><b>Total pregnancies highest</b>: Sicilia, Campania, Puglia, Calabria,
-                      Emilia Romagna</li>
-                    <li class="list-group-item"><b>Total pregnancies lowest</b>: Friuli-Venezia Giulia, Sardegna,
-                      Marche, Veneto, Basilicata</li>
-                    <li class="list-group-item"><b>Total pregnancies range (highest-lowest)</b>: 2.49 (Sicilia) - 1.28
-                      (Basilicata)</li>
-                    <li class="list-group-item" style="background-color:#67b2dc85;"><b>Births highest</b>: Sicilia,
-                      Campania, Calabria, Puglia, Trentino Alto Adige / Südtirol</li>
-                    <li class="list-group-item" style="background-color:#67b2dc85;"><b>Births lowest</b>:
-                      Basilicata, Valle d'Aosta, Sardegna, Lazio, Veneto</li>
-                    <li class="list-group-item" style="background-color:#67b2dc85;"><b>Births range
-                        (highest-lowest)</b>: 2.11 (Sicilia) - 1.00 (Basilicata)</li>
-                    <li class="list-group-item" style="background-color: #6892dc85;"><b>Abortions highest</b>: Liguria,
-                      Piemonte, Puglia, Emilia Romagna, Lazio</li>
-                    <li class="list-group-item" style="background-color: #6892dc85;"><b>Abortions lowest</b>:
-                      Basilicata, Calabria, Veneto, Campania, Marche </li>
-                    <li class="list-group-item" style="background-color: #6892dc85;"><b>Abortions range
-                        (highest-lowest)</b>: 0.48 (Liguria) - 0.07 (Basilicata) </li>
-                    <li class="list-group-item" style="background-color: #6672dc85;"><b>Miscarriages highest</b>:
-                      Sicilia, Puglia, Lazio, Piemonte, Calabria</li>
-                    <li class="list-group-item" style="background-color: #6672dc85;"><b>Miscarriages lowest</b>:
-                      Trentino Alto Adige / Südtirol, Campania, Abruzzo, Umbria, Sardegna </li>
-                    <li class="list-group-item" style="background-color: #6672dc85;"><b>Miscarriages range
-                        (highest-lowest)</b>: 0.09 (Sicilia) - 0.04 (Trentino Alto Adige / Südtirol) </li>
-                  </ul>
-
-                </div>
-
-              </div>
-
-
             </div>
-          </div>
         </div>
-      </div> <!-- End of 2019 -->
+        <!-- END chart-container-wrapper -->
+      </div>
+      <!-- END plot container -->
+    </div>
+  </div>
+
+  <!-- Causes section -->
+<div class="collapse" id="causes">
+    <div class="section-title justify-content-center" data-aos="fade-up" data-aos-delay="250">
+      <p class="factor-text"> Indication of some causes of intimate partner violence </p>
+      <p>
+        This section explores the perceived causes of violence in intimate relationships in different regions of Italy. The data show how often each factor is identified as a cause of violence, contributing to a deeper understanding of the cultural and social roots of this phenomenon.
+      </p>
+      <br>
+  
+      <div class="container time-series align-items-center justify-content-center" data-num="1">
+        <!-- Contenitore principale che tiene il grafico e il pannello di controllo -->
+        <div class="chart-container-wrapper">
+            <div id="chart-container-causes"></div>
+
+    <div id="controls-causes">
+        <h2>Controls</h2>
+        
+        <!-- Dropdown allineato a sinistra -->
+        <div id="region-dropdown-container-causes">
+            <label for="region-dropdown-causes">Choose a region:</label>
+            <select id="region-dropdown-causes" onchange="updateChart()">
+                <!-- Le regioni saranno aggiunte dinamicamente -->
+            </select>
+        </div>
+    </div>
+            </div>
+        </div>
+        <!-- END chart-container-wrapper -->
+      </div>
+      <!-- END plot container -->
+    </div>
+  </div>
+  
+
+
 
 
       <!-- Time series -->
@@ -3356,8 +3162,10 @@ All rights reserved. (<a href= "https://github.com/Leaflet/Leaflet/blob/main/LIC
 <!-- pie-charts -->
   <script src="assets/js/pie_charts/pie-total.js"></script>
 
-  <script src="/geo_opinions/prova-ora.js"></script>
-  <script src="/geo_violence/geo-partner.js"></script>
+  <script src="/geo_opinions/geo_opinions.js"></script>
+  <script src="/geo_victims/victim.js"></script>
+  <script src="/geo_causes/causes.js"></script>
+
 
   <!-- bubble charts -->
 
@@ -3367,5 +3175,4 @@ All rights reserved. (<a href= "https://github.com/Leaflet/Leaflet/blob/main/LIC
 
 
 </body>
-
 </html>
