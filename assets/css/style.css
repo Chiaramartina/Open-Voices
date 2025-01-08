@@ -2264,22 +2264,6 @@ h3.analysis-second-title {
   margin: 0 auto;          /* Centra il contenitore */
 }
 
-/* Contenitore per i controlli */
-#controls {
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-/* Stile del selettore */
-#cause-select {
-  padding: 5px;
-  font-size: 14px;
-  margin-top: 10px;
-  width: 200px;
-}
-
 /* Contenitore del grafico */
 #chartContainer {
   width: 100%;

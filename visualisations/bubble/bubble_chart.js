@@ -165,7 +165,7 @@ const traces = causes.map(cause => {
 
 // Layout del grafico con miglioramenti per la leggibilità
 const layout = {
-  title: 'Bubble Chart - Victims by Region and Cause',
+  title: 'Victims by Region and Cause',
   xaxis: {
       title: 'Cause Value',
       range: [30, 85], // Impostare un range specifico per l'asse X
