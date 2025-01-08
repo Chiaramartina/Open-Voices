@@ -3050,34 +3050,34 @@
 
 
       <div class="section-title justify-content-center" data-aos="fade-up" data-aos-delay="250">
-        <p class="factor-text">bubble chart</p> 
+        <p class="factor-text">Bubble Chart</p>
         <p>
-          Finally, we can observe how our chosen variables correlate in our study in each 
+          Finally, we can observe how our chosen variables correlate in our study in each
           specific region.
         </p>
         <br>
       
-        <div class="container time-series align-items-center justify-content-center" data-num="2">
-          <!-- Controls for the bubble chart -->
-          <div id="controls">
-            <label for="cause-select">Select a Cause:</label>
-            <select id="cause-select">
-              <option value="all">All Causes</option>
-              <option value="difficulty in managing anger">Difficulty in Managing Anger</option>
-              <option value="considering women to be property">Considering Women to Be Property</option>
-              <option value="having negative experiences of family violence as a child">Negative Family Experiences as a Child</option>
-              <option value="religious reasons">Religious Reasons</option>
-              <option value="not standing women’s empowerment">Not Standing Women’s Empowerment</option>
-              <option value="abuse of drugs or alcohol">Abuse of Drugs or Alcohol</option>
-              <option value="need to feel superior than one’s partner/wife">Need to Feel Superior</option>
-            </select>
+        <!-- Container per il grafico e i controlli -->
+        <div class="container-bubble time-series align-items-center justify-content-center" data-num="2">
+          <div id="content-bubble-chart" class="chart-wrapper">
+            <!-- Contenitore per i controlli -->
+            <div id="controls">
+              <label for="cause-select">Select a Cause:</label>
+              <select id="cause-select">
+                <option value="difficulty in managing anger">Difficulty in Managing Anger</option>
+                <option value="considering women to be property">Considering Women to Be Property</option>
+                <option value="having negative experiences of family violence as a child">Negative Family Experiences as a Child</option>
+                <option value="religious reasons">Religious Reasons</option>
+                <option value="not standing women’s empowerment">Not Standing Women’s Empowerment</option>
+                <option value="abuse of drugs or alcohol">Abuse of Drugs or Alcohol</option>
+                <option value="need to feel superior than one’s partner/wife">Need to Feel Superior</option>
+              </select>
+            </div>
+      
+            <!-- Contenitore per il grafico -->
+            <div id="bubble-chart" style="width: 100%; height: 700px;"></div>
           </div>
-      
-          <!-- Plot container -->
-          <div id="chart-bubble" class="chart-bubble"></div>
-          <div id="tooltip" class="tooltip"></div>
-        </div><!-- END plot container -->
-      
+        </div>
       </div>
       
 
@@ -3159,37 +3159,17 @@
           <div class="col-lg-3 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="member-img">
-                <img src="assets/img/team/madda_1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/bloom.jpg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href="mailto:maddalena.ghiotto@studio.unibo.it"><i class="bi bi-envelope"></i></a>
-                  <a href="https://www.linkedin.com/in/maddalena-ghiotto-612412253/" target="_blank"><i
+                  <a href="mailto:lucrezia.pograri@studio.unibo.it"><i class="bi bi-envelope"></i></a>
+                  <a href="https://www.linkedin.com/in/lucrezia-pograri-7a056b24a/" target="_blank"><i
                       class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
-                <h4>Maddalena Ghiotto</h4>
-                <span>(holding herself)</span>
+                <h4>Lucrezia Pograri</h4>
                 <p>Project ideation — Data retrieval — Mashup datasets — Technical analysis — RDF assertion of the
-                  metadata</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="200">
-              <div class="member-img">
-                <img src="assets/img/team/chloe.jpeg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href="mailto:chloi.papadopoulou@studio.unibo.it"><i class="bi bi-envelope"></i></a>
-                  <a href="https://www.linkedin.com/in/chloe-papadopoulou/" target="_blank"><i
-                      class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Chloe Papadopoulou</h4>
-                <span>(holding a coffee machine)</span>
-                <p>Project ideation — Data retrieval — Ethical analysis — Visualizations
-                </p>
+                  metadata — Website development</p>
               </div>
             </div>
           </div>
@@ -3197,19 +3177,17 @@
           <div class="col-lg-3 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="300">
               <div class="member-img">
-                <img src="assets/img/team/orsola.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/stella.jpg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href="mailto:orsolamaria.borrini@studio.unibo.it"><i class="bi bi-envelope"></i></a>
-                  <a href="https://www.linkedin.com/in/orsola-maria-borrini-362142253/" target="_blank"><i
+                  <a href="mailto:chiara.martina@studio.unibo.it"><i class="bi bi-envelope"></i></a>
+                  <a href="" target="_blank"><i
                       class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
-                <h4>Orsola Maria Borrini</h4>
-                <span>(holding tzatziki)</span>
+                <h4>Chiara Martina</h4>
                 <p>Project ideation — Data retrieval — Mashup datasets — Quality and legal analyses — Sustainability of
-                  the update — Website
-                  development</p>
+                  the update — Website development</p>
               </div>
             </div>
           </div>
@@ -3291,8 +3269,7 @@ All rights reserved. (<a href= "https://github.com/Leaflet/Leaflet/blob/main/LIC
       <div class="row d-flex align-items-center">
         <div class="text-lg-left text-center">
           <div class="copyright">
-            &copy; Copyright <strong>Blessed Be the Fruit</strong>. All Rights Reserved<br>
-            <img src="assets/img/pomegranatebead.png" id="pmgBead">
+            &copy; Copyright <strong>Open Voices</strong>. All Rights Reserved<br>
           </div>
           <div class="credits">
             <!-- All the links in the footer should remain intact. -->
@@ -3304,10 +3281,10 @@ All rights reserved. (<a href= "https://github.com/Leaflet/Leaflet/blob/main/LIC
         </div>
         <br>
         <div class="text-lg-left text-center footer-text">
-          Blessed Be the Fruit is a project developed for the <a
-            href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2022/424645" target="_blank">"Open Access
+          This project is developed for the <a
+            href="https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/course-unit-catalogue/course-unit/2024/424645" target="_blank"><i>Open Access
             and Digital
-            Ethics"</a>
+            Ethics</i></a>
           course (a.a. 2022/2023)
           within the <a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge" target="_blank">Digital
             Humanities and Digital
@@ -3317,7 +3294,7 @@ All rights reserved. (<a href= "https://github.com/Leaflet/Leaflet/blob/main/LIC
             Bologna</a>
         </div>
         <div class="text-lg-left text-center footer-github">
-          <a href="https://github.com/OrsolaMBorrini/blessedfruit" target="_blank"><svg
+          <a href="https://github.com/" target="_blank"><svg
               xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-github"
               viewBox="0 0 16 16">
               <path
@@ -3354,7 +3331,9 @@ All rights reserved. (<a href= "https://github.com/Leaflet/Leaflet/blob/main/LIC
   <script src="assets/js/plotly_graphs/bar-charts/bar-percentage-19.js"></script>
 
 <!-- bubble chart -->
-<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="visualisations/bubble/bubble_chart.js"></script>
 
 <!-- pie-charts -->
@@ -3363,7 +3342,6 @@ All rights reserved. (<a href= "https://github.com/Leaflet/Leaflet/blob/main/LIC
   <script src="/geo_opinions/prova-ora.js"></script>
   <script src="/geo_violence/geo-partner.js"></script>
 
-  <!-- bubble charts -->
 
 
 </body>
