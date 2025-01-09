@@ -15,8 +15,8 @@ if os.path.exists(file_path):
         for row in reader:
             territory = row['Territory']
             cause = row['Possible causes']
-            value = float(row['Causes Value'])
-            victims = round(float(row['Victims per 100.000 inhabitants']), 2)
+            value = float(row['Causes Value (%)'])
+            victims = round(float(row['Victims per 100.000 inhabitants (%)']), 2)
             
             data.append({
                 "territory": territory,
