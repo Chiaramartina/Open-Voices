@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/pomegranate2.png" rel="icon">
+  <link href="assets/img/pmgfull.png" rel="icon">
 
   <!-- Google Fonts -->
   <link
@@ -189,6 +189,15 @@
       </div>
     </section><!-- End About Section -->
 
+    <!-- ======= Results Section ======= -->
+    <section id="results" class="about">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Results</h2>
+          </p>
+        </div>
+
     <!-- ======= Counts Section ======= -->
     <section id="counts" class="counts">
       <div class="container">
@@ -204,8 +213,8 @@
               <div class="row">
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
-                    <i class="bi bi-file-earmark-bar-graph"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="16" data-purecounter-duration="1.3"
+                    <i class="bi bi-file-earmark-ruled"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1.3"
                       class="purecounter"></span>
                     <p><strong>Datasets</strong>, between source ones and mashup ones, used to answer the research
                       question</p>
@@ -215,30 +224,28 @@
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="bi bi-people-fill"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="327236" data-purecounter-duration="1.3"
+                    <span data-purecounter-start="0" data-purecounter-end="9602" data-purecounter-duration="1.3"
                       class="purecounter"></span>
-                    <p><strong>Pregnancies</strong> in the female population aged 15-25 during the year span 2017-2019
-                      in Italy
+                    <p><strong>Victims</strong> in the italian population during the year 2018 turning to 1522 anti-violence and stalking number
                     </p>
                   </div>
                 </div>
 
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
-                    <i class="bi bi-brightness-alt-high-fill"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="43853" data-purecounter-duration="1.3"
+                    <i class="bi bi-gender-female"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="9341" data-purecounter-duration="1.3"
                       class="purecounter"></span>
-                    <p>Thousands <strong>religion followers</strong> in the year span 2017-2019 in Italy</p>
+                    <p>Female victims<strong></p>
                   </div>
                 </div>
 
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
-                    <i class="bi bi-mortarboard-fill"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="6322" data-purecounter-duration="1.3"
+                    <i class="bi bi-gender-male"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="261" data-purecounter-duration="1.3"
                       class="purecounter"></span>
-                    <p><strong>Early leavers from higher education</strong> in the female population aged 18-24 during
-                      the year span 2017-2019 in Italy</p>
+                    <p><strong>Male victims</strong></p>
                   </div>
                 </div>
               </div>
@@ -250,15 +257,6 @@
     </section><!-- End Counts Section -->
     
 
-    <!-- ======= Results Section ======= -->
-    <section id="results" class="about">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>Results</h2>
-          </p>
-        </div>
-
 
 
         <!-- Geo Map -->
@@ -267,7 +265,7 @@
             <div class="analysis-box">
               <div class="analysis-box-title">
                 <h4 class="year-result-text">Victims per 100.000 inhabitants</h4>
-                <p class="box-paragraph">2018<br>
+                <p>
                   Highest rate: Lazio 29%<br>
                   Lowest rate: Molise 11%
                 </p>
@@ -285,8 +283,14 @@
                   <div class="map" id="map_regions" style="width: 100%; height: 100vh;"></div>
                 </div>
               </div>
-              
 
+              <hr>
+              <!-- bar chart victims -->
+              
+              <div class="container-bar-vic">
+                <h4 class="year-result-text analysis-box-title">Gender-based victims data</h4>
+                <div id="grafico"></div>
+            </div>
 
     </section><!-- End Results Section -->
 
@@ -2716,19 +2720,7 @@
       Unfortunately, there are very <b>few and non-institutional data about the phenomenon</b> and this prevented
       us to futherly investigate the degree of its impact on our study.
     </blockquote>
-    <p class="analysis-text" style="padding-top:1em;">
-      Finally, to highlight other features related to our variables and illustrate trends and other interesting
-      information, you can have a look at our in the <a href="#viz"><b>"Additional Visualizations"
-          section</b></a>. There, we provided:
-    <ul>
-      <li><span class="underlined underlined--offset"><b>bubble charts</b></span> for every year to investigate
-        and better visualize how much our variables are correlated together,</li>
-      <li><span class="underlined underlined--offset"><b>pie charts</b></span> for pregnancies data, in order to
-        better understand the rates of the different outcomes of pregnancies,</li>
-      <li><span class="underlined underlined--offset"><b>time series</b></span> for each reason, in order to
-        better investigate how our values changed over the three year span we analyzed.</li>
-    </ul>
-    </p>
+
   </div>
 </div>   
 
@@ -2971,8 +2963,7 @@
               </div>
               <div class="member-info">
                 <h4>Lucrezia Pograri</h4>
-                <p>Project ideation — Data retrieval — Mashup datasets — Technical analysis — RDF assertion of the
-                  metadata — Website development</p>
+                <p>Project ideation — Data retrieval — KNIME preprocessing — Mashup datasets — Visualizations — RDF metadata assertion — Website development</p>
               </div>
             </div>
           </div>
@@ -2989,8 +2980,7 @@
               </div>
               <div class="member-info">
                 <h4>Chiara Martina</h4>
-                <p>Project ideation — Data retrieval — Mashup datasets — Quality and legal analyses — Sustainability of
-                  the update — Website development</p>
+                <p>Project ideation — Data retrieval — KNIME preprocessing — Mashup datasets — Analyses — Visualizations — Website development</p>
               </div>
             </div>
           </div>
@@ -3124,8 +3114,10 @@ All rights reserved. (<a href= "https://github.com/Leaflet/Leaflet/blob/main/LIC
   <script src="assets/js/main.js"></script>
 
   <!-- Leaflet map -->
-  <script src="assets/js/maps/geomap.js"></script>
-
+  <script src="assets/js/map/geomap.js"></script>
+  <!-- bar chart under map -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="assets/js/bar_victims/vic_chart.js"></script>
 
   <script src="assets/js/italy_regions.js"></script>
 <!-- bar graphs -->
