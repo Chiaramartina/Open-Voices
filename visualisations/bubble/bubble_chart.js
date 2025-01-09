@@ -164,7 +164,7 @@ const traces = causes.map(cause => {
 });
 
 // Layout del grafico con miglioramenti per la leggibilità
-const layout = {
+const layout_bubble = {
   title: 'Victims by Region and Cause',
   xaxis: {
       title: 'Cause Value',
@@ -211,4 +211,4 @@ const layout = {
 };
 
 // Creazione del grafico
-Plotly.newPlot('bubble-chart', traces, layout);
+Plotly.newPlot('bubble-chart', traces, layout_bubble);
