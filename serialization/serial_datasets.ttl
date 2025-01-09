@@ -1,0 +1,108 @@
+@prefix dcat3: <https://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ov: <https://github.com/Chiaramartina/Open-Voices> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ov:D1_D4_D5 a prov:Entity,
+        dcat3:Dataset ;
+    dct:accessRights "Public"@en ;
+    dct:description "This dataset provides information on violence-related data across Italian regions. It includes the territory (representing different Italian regions), possible causes of violence, the corresponding value assigned to each cause, and the number of victims per 100,000 inhabitants for each region. The dataset aims to analyze and compare the regional variations in violence causes and their impact on the population."@en ;
+    prov:wasAttributedTo ov: ;
+    dcat3:accessRights <https://creativecommons.org/licenses/by/4.0/> ;
+    dcat3:distribution "CSV",
+        "Excel",
+        "PC-axis",
+        "SDMX-XML" ;
+    dcat3:language "en"^^xsd:language,
+        "it"^^xsd:language ;
+    dcat3:provenance ov: ;
+    dcat3:releaseDate "2024"^^xsd:year ;
+    dcat3:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    dcat3:title "Regional Analysis of Violence Causes and Victimization in Italy"@en .
+
+ov:D1_POPULATION a prov:Entity,
+        dcat3:Dataset ;
+    dct:accessRights "Public"@en ;
+    dct:description "Dataset on the resident municipal population disaggregated by age, sex, and marital status."@en ;
+    prov:wasAttributedTo <https://viaf.org/viaf/1649148814291645330008/#Istituto_centrale_di_statistica_(Italy)> ;
+    dcat3:accessRights <https://creativecommons.org/licenses/by/3.0/> ;
+    dcat3:distribution "CSV",
+        "Excel",
+        "PC-axis",
+        "SDMX-XML" ;
+    dcat3:language "en"^^xsd:language,
+        "it"^^xsd:language ;
+    dcat3:provenance <https://viaf.org/viaf/1649148814291645330008/#Istituto_centrale_di_statistica_(Italy)> ;
+    dcat3:releaseDate "2018"^^xsd:year ;
+    dcat3:theme <http://publications.europa.eu/resource/authority/data-theme/POP> ;
+    dcat3:title "Resident municipal population by age, sex and marital status"@en .
+
+ov:D2_OPINIONS_VIOLENCE_GEOAREAS a prov:Entity,
+        dcat3:Dataset ;
+    dct:accessRights "Public"@en ;
+    dct:description "Dataset on opinions about gender roles and violence against women, focusing on geographical areas."@en ;
+    prov:wasAttributedTo <https://viaf.org/viaf/1649148814291645330008/#Istituto_centrale_di_statistica_(Italy)> ;
+    dcat3:accessRights <https://creativecommons.org/licenses/by/3.0/> ;
+    dcat3:distribution "CSV",
+        "Excel",
+        "PC-axis",
+        "SDMX-XML" ;
+    dcat3:language "en"^^xsd:language,
+        "it"^^xsd:language ;
+    dcat3:provenance <https://viaf.org/viaf/1649148814291645330008/#Istituto_centrale_di_statistica_(Italy)> ;
+    dcat3:releaseDate "2018"^^xsd:year ;
+    dcat3:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    dcat3:title "Opinions about gender roles and about violence against women - adults: Opinions about sexual violence - geographical areas"@en .
+
+ov:D3_OPINIONS_PARTNER_GEOAREAS a prov:Entity,
+        dcat3:Dataset ;
+    dct:accessRights "Public"@en ;
+    dct:description "Dataset on acceptability of intimate partner violence, disaggregated by geographical areas."@en ;
+    prov:wasAttributedTo <https://viaf.org/viaf/1649148814291645330008/#Istituto_centrale_di_statistica_(Italy)> ;
+    dcat3:accessRights <https://creativecommons.org/licenses/by/3.0/> ;
+    dcat3:distribution "CSV",
+        "Excel",
+        "PC-axis",
+        "SDMX-XML" ;
+    dcat3:language "en"^^xsd:language,
+        "it"^^xsd:language ;
+    dcat3:provenance <https://viaf.org/viaf/1649148814291645330008/#Istituto_centrale_di_statistica_(Italy)> ;
+    dcat3:releaseDate "2018"^^xsd:year ;
+    dcat3:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    dcat3:title "Opinions about gender roles and about violence against women - adults: Acceptability of intimate partner violence - geographical areas"@en .
+
+ov:D4_VICTIMS a prov:Entity,
+        dcat3:Dataset ;
+    dct:accessRights "Public"@en ;
+    dct:description "Dataset on victims who contacted the anti-violence and stalking number, disaggregated by sex, age class, and geographical areas."@en ;
+    prov:wasAttributedTo <https://viaf.org/viaf/1649148814291645330008/#Istituto_centrale_di_statistica_(Italy)> ;
+    dcat3:accessRights <https://creativecommons.org/licenses/by/3.0/> ;
+    dcat3:distribution "CSV",
+        "Excel",
+        "PC-axis",
+        "SDMX-XML" ;
+    dcat3:language "en"^^xsd:language,
+        "it"^^xsd:language ;
+    dcat3:provenance <https://viaf.org/viaf/1649148814291645330008/#Istituto_centrale_di_statistica_(Italy)> ;
+    dcat3:releaseDate "2018"^^xsd:year ;
+    dcat3:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    dcat3:title "Victims turning to 1522 (anti-violence and stalking number) – sex, age class, geographical areas"@en .
+
+ov:D5_VIOLENCE_CAUSES a prov:Entity,
+        dcat3:Dataset ;
+    dct:accessRights "Public"@en ;
+    dct:description "Dataset on causes of violence against women, as perceived by adults."@en ;
+    prov:wasAttributedTo <https://viaf.org/viaf/1649148814291645330008/#Istituto_centrale_di_statistica_(Italy)> ;
+    dcat3:accessRights <https://creativecommons.org/licenses/by/3.0/> ;
+    dcat3:distribution "CSV",
+        "Excel",
+        "PC-axis",
+        "SDMX-XML" ;
+    dcat3:language "en"^^xsd:language,
+        "it"^^xsd:language ;
+    dcat3:provenance <https://viaf.org/viaf/1649148814291645330008/#Istituto_centrale_di_statistica_(Italy)> ;
+    dcat3:releaseDate "2018"^^xsd:year ;
+    dcat3:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    dcat3:title "Opinions about gender roles and about violence against women - adults: Indication of some causes of intimate partner violence – geographical areas"@en .
+
