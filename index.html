@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="voicess.png" rel="icon">
+  <link href="assets/img/pomegranate2.png" rel="icon">
 
   <!-- Google Fonts -->
   <link
@@ -189,6 +189,15 @@
       </div>
     </section><!-- End About Section -->
 
+    <!-- ======= Results Section ======= -->
+    <section id="results" class="about">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Results</h2>
+          </p>
+        </div>
+
     <!-- ======= Counts Section ======= -->
     <section id="counts" class="counts">
       <div class="container">
@@ -204,8 +213,8 @@
               <div class="row">
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
-                    <i class="bi bi-file-earmark-bar-graph"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="16" data-purecounter-duration="1.3"
+                    <i class="bi bi-file-earmark-ruled"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1.3"
                       class="purecounter"></span>
                     <p><strong>Datasets</strong>, between source ones and mashup ones, used to answer the research
                       question</p>
@@ -215,49 +224,38 @@
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="bi bi-people-fill"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="327236" data-purecounter-duration="1.3"
+                    <span data-purecounter-start="0" data-purecounter-end="9602" data-purecounter-duration="1.3"
                       class="purecounter"></span>
-                    <p><strong>Pregnancies</strong> in the female population aged 15-25 during the year span 2017-2019
-                      in Italy
+                    <p><strong>Victims</strong> in the italian population during the year 2018 turning to 1522 anti-violence and stalking number
                     </p>
                   </div>
                 </div>
 
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
-                    <i class="bi bi-brightness-alt-high-fill"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="43853" data-purecounter-duration="1.3"
+                    <i class="bi bi-gender-female"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="9341" data-purecounter-duration="1.3"
                       class="purecounter"></span>
-                    <p>Thousands <strong>religion followers</strong> in the year span 2017-2019 in Italy</p>
+                    <p>Female victims<strong></p>
                   </div>
                 </div>
 
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
-                    <i class="bi bi-mortarboard-fill"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="6322" data-purecounter-duration="1.3"
+                    <i class="bi bi-gender-male"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="261" data-purecounter-duration="1.3"
                       class="purecounter"></span>
-                    <p><strong>Early leavers from higher education</strong> in the female population aged 18-24 during
-                      the year span 2017-2019 in Italy</p>
+                    <p><strong>Male victims</strong></p>
                   </div>
                 </div>
               </div>
-            </div><!-- End .content-->
+            </div><!-- End content-->
           </div>
         </div>
 
       </div>
     </section><!-- End Counts Section -->
     
-
-    <!-- ======= Results Section ======= -->
-    <section id="results" class="about">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>Results</h2>
-          </p>
-        </div>
 
 
 
@@ -266,8 +264,8 @@
           <div class="align-items-stretch mb-5 mb-lg-0">
             <div class="analysis-box">
               <div class="analysis-box-title">
-                <h4 class="year-result-text">Victims per 100.000 inhabitants</h4>
-                <p class="box-paragraph">2018<br>
+                <h4 class="year-result-text">Victims per 100k inhabitants</h4>
+                <p>
                   Highest rate: Lazio 29%<br>
                   Lowest rate: Molise 11%
                 </p>
@@ -285,8 +283,14 @@
                   <div class="map" id="map_regions" style="width: 100%; height: 100vh;"></div>
                 </div>
               </div>
-              
 
+              <hr>
+              <!-- bar chart victims -->
+              
+              <div class="container-bar-vic">
+                <h4 class="year-result-text analysis-box-title">Gender-based victims data</h4>
+                <div id="grafico"></div>
+            </div>
 
     </section><!-- End Results Section -->
 
@@ -2525,6 +2529,100 @@
         </div>
 
 
+      
+<!-- VISUALISATIONS -->     
+<div class="row content">
+  <div class="pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="150" style="padding-bottom: 1em;">
+    <p class="analysis-text">
+      <b>Our main visualizations</b>:
+    </p>
+    <h5><span class="underlined underlined--offset"><b>choropleth maps</b></span></h5>
+    <p class="analysis-text">
+      We decided to provide choropleth maps as they were the best option to visualize individually the variation
+      of our data over our geographical area of interest,
+      as well as to visually highlight similarities in our variables trends.<br>
+      Please note that:
+    <ul>
+      <li><b>Religious observance percentage rates</b> are calculated over the general population without
+        distinction in gender or age class</li>
+      <li><b>Pregnancy percentage rates</b> are calculated over a sample population of women belonging to an age
+        class of 15-24</li>
+      <li><b>Education leavers percentage rates</b> are caluculated over a sample population of women belonging
+        to an age class of 18-24</li>
+    </ul>
+    Overall, these maps allow us to observe a general trend common to our three variables, whose rate tend to
+    increase in southern regions and islands.
+    Nonetheless, there are too many regional specificities and exceptions in values' similarities throughout the
+    years and <span class="underlined underlined--offset"><b>this prevent us to affirm any strong correlation
+        between variables</b></span>, let alone any possible causality between them.
+    </p>
+    <h5><span class="underlined underlined--offset"><b>bar chart</b></span></h5>
+    <p class="analysis-text">
+      The bar chart visualization was included as well, since it offers us an <b>immediate and clear
+        comparison</b> between values of each of our variables.
+    </p>
+    <h5><span class="underlined underlined--offset"><b>bubble chart</b></span></h5>
+    <p class="analysis-text">
+      ...
+    </p>
+  </div>
+  <div class="pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
+    <h5><span class="underlined underlined--offset"><b>conclusions</b></span></h5>
+    <p class="analysis-text">
+      For a further evaluation of our analysis, we can likely state that <b>we don't have enough data to know if
+        a variable </b> - and in that case which one - <b>causes the other</b>.
+    </p>
+    <blockquote>
+      For
+      example, we could hypothesize that the early leavers rate is indeed affected by the early pregnancy rates,
+      since being pregnant could be a reason for a young woman to choose to leave education or training. To affirm this, however,
+      we would need to look into <b>other possible correlated factors</b>, such as <b>poverty rates</b>, to make
+      sure they are not strongly affecting our data.
+    </blockquote>
+    <blockquote>
+      For the same reason, we can't possibly infer causality between religious rates and our other variables:
+      even though they do seem to vary together, there's no mean for us to tell whether religiosity is
+      the reason one is inclined to leave education and start a family early in life,
+      or whether, after this happens, people are inclined to move their sociality from educational contests to
+      religious contests.
+      Just to give some examples of possible reasons of
+      correlation.<br>
+      Furthermore, to properly assess the connection between religiosity and pregnancies, with specific
+      differentiation amongst induced abortions and live births, for instance, we would need much more data
+      about how religiosity affects women's <b>access to Voluntary Termination of Pregnancy</b> (VTP, in
+      Italian "Interruzione Volontaria di Gravidanza", IVG) in the first place.
+      As we know, Italy has a very <a
+        href="https://it.wikipedia.org/wiki/Obiezione_di_coscienza_in_Italia#Obiezione_nell'ambito_dell'interruzione_volontaria_di_gravidanza_(IVG)"
+        target="_blank">high rate of coscientious objectors</a>
+      (in 2012: 69,6% of gynecologists, 47,5% of anesthetists and 45% of non medical staff [<a
+        href="https://www.salute.gov.it/imgs/C_17_pubblicazioni_2226_allegato.pdf" target="_blank">source</a>]).
+      <br>
+      This could significantly affect the pregnancy
+      rates per region, as they have been counted including <b>abortions in the place where they happen</b> and
+      not
+      according to the woman's residency. It goes without saying, if a region prevents
+      a woman to access VTP they might be likely to migrate to other region, hence, this phenomenon might also
+      have affected our data.
+      Unfortunately, there are very <b>few and non-institutional data about the phenomenon</b> and this prevented
+      us to futherly investigate the degree of its impact on our study.
+    </blockquote>
+    <p class="analysis-text" style="padding-top:1em;">
+      Finally, to highlight other features related to our variables and illustrate trends and other interesting
+      information, you can have a look at our in the <a href="#viz"><b>"Additional Visualizations"
+          section</b></a>. There, we provided:
+    <ul>
+      <li><span class="underlined underlined--offset"><b>bubble charts</b></span> for every year to investigate
+        and better visualize how much our variables are correlated together,</li>
+      <li><span class="underlined underlined--offset"><b>pie charts</b></span> for pregnancies data, in order to
+        better understand the rates of the different outcomes of pregnancies,</li>
+      <li><span class="underlined underlined--offset"><b>time series</b></span> for each reason, in order to
+        better investigate how our values changed over the three year span we analyzed.</li>
+    </ul>
+    </p>
+  </div>
+</div>   
+
+
         <div class="row" data-aos="fade-up" data-aos-delay="200">
             <div class="click-instruction">
               <span class="underlined--bg-g underlined--offset--bg-g">
@@ -2822,8 +2920,7 @@
               </div>
               <div class="member-info">
                 <h4>Lucrezia Pograri</h4>
-                <p>Project ideation — Data retrieval — Mashup datasets — Technical analysis — RDF assertion of the
-                  metadata — Website development</p>
+                <p>Project ideation — Data retrieval — KNIME preprocessing — Mashup datasets — Visualizations — RDF metadata assertion — Website development</p>
               </div>
             </div>
           </div>
@@ -2840,8 +2937,7 @@
               </div>
               <div class="member-info">
                 <h4>Chiara Martina</h4>
-                <p>Project ideation — Data retrieval — Mashup datasets — Quality and legal analyses — Sustainability of
-                  the update — Website development</p>
+                <p>Project ideation — Data retrieval — KNIME preprocessing — Mashup datasets — Analyses — Visualizations — Website development</p>
               </div>
             </div>
           </div>
@@ -2975,8 +3071,10 @@ All rights reserved. (<a href= "https://github.com/Leaflet/Leaflet/blob/main/LIC
   <script src="assets/js/main.js"></script>
 
   <!-- Leaflet map -->
-  <script src="assets/js/maps/geomap.js"></script>
-
+  <script src="assets/js/map/geomap.js"></script>
+  <!-- bar chart under map -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="assets/js/bar_victims/vic_chart.js"></script>
 
   <script src="assets/js/italy_regions.js"></script>
 <!-- bar graphs -->

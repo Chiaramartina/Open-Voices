@@ -1,0 +1,32 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat3: <https://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://github.com/Chiaramartina/Open-Voices/tree/main/data> a dcat3:Catalog ;
+    dct:description "Catalog containing the datasets for the Open Voices project"@en ;
+    dct:issued "2025-01-01"^^xsd:date ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:modified "2025-01-01"^^xsd:date ;
+    dct:publisher <https://github.com/Chiaramartina/Open-Voices> ;
+    dct:title "Open Voices - Catalog"@en ;
+    adms:identifier "OV-Catalog"^^xsd:string ;
+    dcat3:dataset <https://github.com/Chiaramartina/Open-Voices/blob/main/data/mashup/D1_D4_D5.csv>,
+        <https://github.com/Chiaramartina/Open-Voices/blob/main/data/original/D1_POPULATION.csv>,
+        <https://github.com/Chiaramartina/Open-Voices/blob/main/data/original/D2_OPINIONS_VIOLENCE_GEOAREAS.csv>,
+        <https://github.com/Chiaramartina/Open-Voices/blob/main/data/original/D3_OPINIONS_PARTNER_GEOAREAS.csv>,
+        <https://github.com/Chiaramartina/Open-Voices/blob/main/data/original/D4_VICTIMS.csv>,
+        <https://github.com/Chiaramartina/Open-Voices/blob/main/data/original/D5_CAUSES_INDICATION.csv> ;
+    dcat3:language "en"^^xsd:language .
+
+<https://creativecommons.org/licenses/by/4.0/> a cc:License ;
+    rdfs:label "Creative Commons CC-BY 4.0"@en ;
+    cc:legalcode <http://creativecommons.org/licenses/by/4.0/> ;
+    cc:permits cc:DerivativeWorks,
+        cc:Distribution,
+        cc:Reproduction ;
+    cc:requires cc:Attribution,
+        cc:Notice .
+

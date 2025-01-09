@@ -1,141 +1,141 @@
-"Territory","Possible causes","Causes Value","Victims per 100.000 inhabitants"
-"Piemonte","difficulty in managing anger",70.9,23.330028784473186
-"Piemonte","considering women to be property",78.5,23.330028784473186
-"Piemonte","having negative experiences of family violence as a child",62.4,23.330028784473186
-"Piemonte","religious reasons",36.6,23.330028784473186
-"Piemonte","not standing women’s empowerment",64.4,23.330028784473186
-"Piemonte","abuse of drugs or alcohol",72.9,23.330028784473186
-"Piemonte","need to feel superior than one’s partner/wife",75,23.330028784473186
-"Valle d'Aosta / Vallée d'Aoste","difficulty in managing anger",72.7,11.074565046457801
-"Valle d'Aosta / Vallée d'Aoste","considering women to be property",76.1,11.074565046457801
-"Valle d'Aosta / Vallée d'Aoste","having negative experiences of family violence as a child",64.3,11.074565046457801
-"Valle d'Aosta / Vallée d'Aoste","religious reasons",35.8,11.074565046457801
-"Valle d'Aosta / Vallée d'Aoste","not standing women’s empowerment",56.7,11.074565046457801
-"Valle d'Aosta / Vallée d'Aoste","abuse of drugs or alcohol",75.3,11.074565046457801
-"Valle d'Aosta / Vallée d'Aoste","need to feel superior than one’s partner/wife",74.3,11.074565046457801
-"Liguria","difficulty in managing anger",70.2,21.61111808905997
-"Liguria","considering women to be property",76.1,21.61111808905997
-"Liguria","having negative experiences of family violence as a child",61.8,21.61111808905997
-"Liguria","religious reasons",39.8,21.61111808905997
-"Liguria","not standing women’s empowerment",62.6,21.61111808905997
-"Liguria","abuse of drugs or alcohol",72.5,21.61111808905997
-"Liguria","need to feel superior than one’s partner/wife",69.2,21.61111808905997
-"Lombardia","difficulty in managing anger",71.2,19.664702234716216
-"Lombardia","considering women to be property",80.2,19.664702234716216
-"Lombardia","having negative experiences of family violence as a child",62.4,19.664702234716216
-"Lombardia","religious reasons",37.6,19.664702234716216
-"Lombardia","not standing women’s empowerment",61.5,19.664702234716216
-"Lombardia","abuse of drugs or alcohol",78.9,19.664702234716216
-"Lombardia","need to feel superior than one’s partner/wife",78.3,19.664702234716216
-"Trentino Alto Adige / Südtirol","difficulty in managing anger",70.7,15.202786828095798
-"Trentino Alto Adige / Südtirol","considering women to be property",77.7,15.202786828095798
-"Trentino Alto Adige / Südtirol","having negative experiences of family violence as a child",64.6,15.202786828095798
-"Trentino Alto Adige / Südtirol","religious reasons",42.5,15.202786828095798
-"Trentino Alto Adige / Südtirol","not standing women’s empowerment",62.8,15.202786828095798
-"Trentino Alto Adige / Südtirol","abuse of drugs or alcohol",79.4,15.202786828095798
-"Trentino Alto Adige / Südtirol","need to feel superior than one’s partner/wife",73.9,15.202786828095798
-"Veneto","difficulty in managing anger",67.7,17.933163214201702
-"Veneto","considering women to be property",76,17.933163214201702
-"Veneto","having negative experiences of family violence as a child",64.8,17.933163214201702
-"Veneto","religious reasons",37.5,17.933163214201702
-"Veneto","not standing women’s empowerment",59.8,17.933163214201702
-"Veneto","abuse of drugs or alcohol",74.5,17.933163214201702
-"Veneto","need to feel superior than one’s partner/wife",74.1,17.933163214201702
-"Friuli-Venezia Giulia","difficulty in managing anger",75.6,15.229094030425884
-"Friuli-Venezia Giulia","considering women to be property",81.2,15.229094030425884
-"Friuli-Venezia Giulia","having negative experiences of family violence as a child",63.8,15.229094030425884
-"Friuli-Venezia Giulia","religious reasons",45.7,15.229094030425884
-"Friuli-Venezia Giulia","not standing women’s empowerment",63.7,15.229094030425884
-"Friuli-Venezia Giulia","abuse of drugs or alcohol",79.8,15.229094030425884
-"Friuli-Venezia Giulia","need to feel superior than one’s partner/wife",79,15.229094030425884
-"Emilia-Romagna","difficulty in managing anger",70.5,16.389932185870624
-"Emilia-Romagna","considering women to be property",80.3,16.389932185870624
-"Emilia-Romagna","having negative experiences of family violence as a child",66.3,16.389932185870624
-"Emilia-Romagna","religious reasons",38.9,16.389932185870624
-"Emilia-Romagna","not standing women’s empowerment",66.9,16.389932185870624
-"Emilia-Romagna","abuse of drugs or alcohol",74.5,16.389932185870624
-"Emilia-Romagna","need to feel superior than one’s partner/wife",78.4,16.389932185870624
-"Toscana","difficulty in managing anger",71.8,21.64547953236698
-"Toscana","considering women to be property",77.7,21.64547953236698
-"Toscana","having negative experiences of family violence as a child",61.1,21.64547953236698
-"Toscana","religious reasons",36.5,21.64547953236698
-"Toscana","not standing women’s empowerment",61.9,21.64547953236698
-"Toscana","abuse of drugs or alcohol",74,21.64547953236698
-"Toscana","need to feel superior than one’s partner/wife",77.7,21.64547953236698
-"Umbria","difficulty in managing anger",75.1,18.9778040107498
-"Umbria","considering women to be property",77.6,18.9778040107498
-"Umbria","having negative experiences of family violence as a child",64.4,18.9778040107498
-"Umbria","religious reasons",40.6,18.9778040107498
-"Umbria","not standing women’s empowerment",62.1,18.9778040107498
-"Umbria","abuse of drugs or alcohol",70.4,18.9778040107498
-"Umbria","need to feel superior than one’s partner/wife",72.5,18.9778040107498
-"Marche","difficulty in managing anger",67.4,21.21207649628143
-"Marche","considering women to be property",74.3,21.21207649628143
-"Marche","having negative experiences of family violence as a child",64.7,21.21207649628143
-"Marche","religious reasons",37.7,21.21207649628143
-"Marche","not standing women’s empowerment",60.4,21.21207649628143
-"Marche","abuse of drugs or alcohol",76.5,21.21207649628143
-"Marche","need to feel superior than one’s partner/wife",73.1,21.21207649628143
-"Lazio","difficulty in managing anger",72.5,29.284713735980716
-"Lazio","considering women to be property",77.6,29.284713735980716
-"Lazio","having negative experiences of family violence as a child",61,29.284713735980716
-"Lazio","religious reasons",37,29.284713735980716
-"Lazio","not standing women’s empowerment",64.2,29.284713735980716
-"Lazio","abuse of drugs or alcohol",78.5,29.284713735980716
-"Lazio","need to feel superior than one’s partner/wife",74.7,29.284713735980716
-"Abruzzo","difficulty in managing anger",67.4,23.71105538542638
-"Abruzzo","considering women to be property",71.6,23.71105538542638
-"Abruzzo","having negative experiences of family violence as a child",64.9,23.71105538542638
-"Abruzzo","religious reasons",28.5,23.71105538542638
-"Abruzzo","not standing women’s empowerment",58,23.71105538542638
-"Abruzzo","abuse of drugs or alcohol",74.8,23.71105538542638
-"Abruzzo","need to feel superior than one’s partner/wife",68.3,23.71105538542638
-"Molise","difficulty in managing anger",71.5,10.789426362165079
-"Molise","considering women to be property",76.6,10.789426362165079
-"Molise","having negative experiences of family violence as a child",64.5,10.789426362165079
-"Molise","religious reasons",28.9,10.789426362165079
-"Molise","not standing women’s empowerment",57,10.789426362165079
-"Molise","abuse of drugs or alcohol",77.6,10.789426362165079
-"Molise","need to feel superior than one’s partner/wife",75.3,10.789426362165079
-"Campania","difficulty in managing anger",71.4,23.502789235057804
-"Campania","considering women to be property",76.5,23.502789235057804
-"Campania","having negative experiences of family violence as a child",65.5,23.502789235057804
-"Campania","religious reasons",24.6,23.502789235057804
-"Campania","not standing women’s empowerment",63.5,23.502789235057804
-"Campania","abuse of drugs or alcohol",73.6,23.502789235057804
-"Campania","need to feel superior than one’s partner/wife",73,23.502789235057804
-"Puglia","difficulty in managing anger",69.5,21.048686196815893
-"Puglia","considering women to be property",78.3,21.048686196815893
-"Puglia","having negative experiences of family violence as a child",66.4,21.048686196815893
-"Puglia","religious reasons",24.1,21.048686196815893
-"Puglia","not standing women’s empowerment",64.4,21.048686196815893
-"Puglia","abuse of drugs or alcohol",75.8,21.048686196815893
-"Puglia","need to feel superior than one’s partner/wife",75.6,21.048686196815893
-"Basilicata","difficulty in managing anger",71.3,13.67114071021576
-"Basilicata","considering women to be property",77.8,13.67114071021576
-"Basilicata","having negative experiences of family violence as a child",68,13.67114071021576
-"Basilicata","religious reasons",23.6,13.67114071021576
-"Basilicata","not standing women’s empowerment",59,13.67114071021576
-"Basilicata","abuse of drugs or alcohol",75.2,13.67114071021576
-"Basilicata","need to feel superior than one’s partner/wife",71.2,13.67114071021576
-"Calabria","difficulty in managing anger",64.3,13.876391394348445
-"Calabria","considering women to be property",72.9,13.876391394348445
-"Calabria","having negative experiences of family violence as a child",64.3,13.876391394348445
-"Calabria","religious reasons",28.8,13.876391394348445
-"Calabria","not standing women’s empowerment",59.8,13.876391394348445
-"Calabria","abuse of drugs or alcohol",69,13.876391394348445
-"Calabria","need to feel superior than one’s partner/wife",70,13.876391394348445
-"Sicilia","difficulty in managing anger",71.2,15.818952785325612
-"Sicilia","considering women to be property",77.2,15.818952785325612
-"Sicilia","having negative experiences of family violence as a child",63.9,15.818952785325612
-"Sicilia","religious reasons",25.5,15.818952785325612
-"Sicilia","not standing women’s empowerment",62.5,15.818952785325612
-"Sicilia","abuse of drugs or alcohol",73.3,15.818952785325612
-"Sicilia","need to feel superior than one’s partner/wife",73.7,15.818952785325612
-"Sardegna","difficulty in managing anger",69.3,19.994282626620816
-"Sardegna","considering women to be property",77.3,19.994282626620816
-"Sardegna","having negative experiences of family violence as a child",61.6,19.994282626620816
-"Sardegna","religious reasons",31.5,19.994282626620816
-"Sardegna","not standing women’s empowerment",62.2,19.994282626620816
-"Sardegna","abuse of drugs or alcohol",79.6,19.994282626620816
-"Sardegna","need to feel superior than one’s partner/wife",72.9,19.994282626620816
+"Territory","Possible causes","Causes Value (%)","Population Value","Victims per 100.000 inhabitants (%)"
+"Piemonte","difficulty in managing anger",70.9,4328565,16.68
+"Piemonte","considering women to be property",78.5,4328565,16.68
+"Piemonte","having negative experiences of family violence as a child",62.4,4328565,16.68
+"Piemonte","religious reasons",36.6,4328565,16.68
+"Piemonte","not standing women’s empowerment",64.4,4328565,16.68
+"Piemonte","abuse of drugs or alcohol",72.9,4328565,16.68
+"Piemonte","need to feel superior than one’s partner/wife",75,4328565,16.68
+"Valle d'Aosta / Vallée d'Aoste","difficulty in managing anger",72.7,125653,7.96
+"Valle d'Aosta / Vallée d'Aoste","considering women to be property",76.1,125653,7.96
+"Valle d'Aosta / Vallée d'Aoste","having negative experiences of family violence as a child",64.3,125653,7.96
+"Valle d'Aosta / Vallée d'Aoste","religious reasons",35.8,125653,7.96
+"Valle d'Aosta / Vallée d'Aoste","not standing women’s empowerment",56.7,125653,7.96
+"Valle d'Aosta / Vallée d'Aoste","abuse of drugs or alcohol",75.3,125653,7.96
+"Valle d'Aosta / Vallée d'Aoste","need to feel superior than one’s partner/wife",74.3,125653,7.96
+"Liguria","difficulty in managing anger",70.2,1532980,15.26
+"Liguria","considering women to be property",76.1,1532980,15.26
+"Liguria","having negative experiences of family violence as a child",61.8,1532980,15.26
+"Liguria","religious reasons",39.8,1532980,15.26
+"Liguria","not standing women’s empowerment",62.6,1532980,15.26
+"Liguria","abuse of drugs or alcohol",72.5,1532980,15.26
+"Liguria","need to feel superior than one’s partner/wife",69.2,1532980,15.26
+"Lombardia","difficulty in managing anger",71.2,10010833,14.13
+"Lombardia","considering women to be property",80.2,10010833,14.13
+"Lombardia","having negative experiences of family violence as a child",62.4,10010833,14.13
+"Lombardia","religious reasons",37.6,10010833,14.13
+"Lombardia","not standing women’s empowerment",61.5,10010833,14.13
+"Lombardia","abuse of drugs or alcohol",78.9,10010833,14.13
+"Lombardia","need to feel superior than one’s partner/wife",78.3,10010833,14.13
+"Trentino Alto Adige / Südtirol","difficulty in managing anger",70.7,1074034,10.89
+"Trentino Alto Adige / Südtirol","considering women to be property",77.7,1074034,10.89
+"Trentino Alto Adige / Südtirol","having negative experiences of family violence as a child",64.6,1074034,10.89
+"Trentino Alto Adige / Südtirol","religious reasons",42.5,1074034,10.89
+"Trentino Alto Adige / Südtirol","not standing women’s empowerment",62.8,1074034,10.89
+"Trentino Alto Adige / Südtirol","abuse of drugs or alcohol",79.4,1074034,10.89
+"Trentino Alto Adige / Südtirol","need to feel superior than one’s partner/wife",73.9,1074034,10.89
+"Veneto","difficulty in managing anger",67.7,4884590,12.94
+"Veneto","considering women to be property",76,4884590,12.94
+"Veneto","having negative experiences of family violence as a child",64.8,4884590,12.94
+"Veneto","religious reasons",37.5,4884590,12.94
+"Veneto","not standing women’s empowerment",59.8,4884590,12.94
+"Veneto","abuse of drugs or alcohol",74.5,4884590,12.94
+"Veneto","need to feel superior than one’s partner/wife",74.1,4884590,12.94
+"Friuli-Venezia Giulia","difficulty in managing anger",75.6,1210414,10.91
+"Friuli-Venezia Giulia","considering women to be property",81.2,1210414,10.91
+"Friuli-Venezia Giulia","having negative experiences of family violence as a child",63.8,1210414,10.91
+"Friuli-Venezia Giulia","religious reasons",45.7,1210414,10.91
+"Friuli-Venezia Giulia","not standing women’s empowerment",63.7,1210414,10.91
+"Friuli-Venezia Giulia","abuse of drugs or alcohol",79.8,1210414,10.91
+"Friuli-Venezia Giulia","need to feel superior than one’s partner/wife",79,1210414,10.91
+"Emilia-Romagna","difficulty in managing anger",70.5,4459453,11.71
+"Emilia-Romagna","considering women to be property",80.3,4459453,11.71
+"Emilia-Romagna","having negative experiences of family violence as a child",66.3,4459453,11.71
+"Emilia-Romagna","religious reasons",38.9,4459453,11.71
+"Emilia-Romagna","not standing women’s empowerment",66.9,4459453,11.71
+"Emilia-Romagna","abuse of drugs or alcohol",74.5,4459453,11.71
+"Emilia-Romagna","need to feel superior than one’s partner/wife",78.4,4459453,11.71
+"Toscana","difficulty in managing anger",71.8,3701343,15.48
+"Toscana","considering women to be property",77.7,3701343,15.48
+"Toscana","having negative experiences of family violence as a child",61.1,3701343,15.48
+"Toscana","religious reasons",36.5,3701343,15.48
+"Toscana","not standing women’s empowerment",61.9,3701343,15.48
+"Toscana","abuse of drugs or alcohol",74,3701343,15.48
+"Toscana","need to feel superior than one’s partner/wife",77.7,3701343,15.48
+"Umbria","difficulty in managing anger",75.1,873744,13.51
+"Umbria","considering women to be property",77.6,873744,13.51
+"Umbria","having negative experiences of family violence as a child",64.4,873744,13.51
+"Umbria","religious reasons",40.6,873744,13.51
+"Umbria","not standing women’s empowerment",62.1,873744,13.51
+"Umbria","abuse of drugs or alcohol",70.4,873744,13.51
+"Umbria","need to feel superior than one’s partner/wife",72.5,873744,13.51
+"Marche","difficulty in managing anger",67.4,1520321,15.13
+"Marche","considering women to be property",74.3,1520321,15.13
+"Marche","having negative experiences of family violence as a child",64.7,1520321,15.13
+"Marche","religious reasons",37.7,1520321,15.13
+"Marche","not standing women’s empowerment",60.4,1520321,15.13
+"Marche","abuse of drugs or alcohol",76.5,1520321,15.13
+"Marche","need to feel superior than one’s partner/wife",73.1,1520321,15.13
+"Lazio","difficulty in managing anger",72.5,5773076,21.34
+"Lazio","considering women to be property",77.6,5773076,21.34
+"Lazio","having negative experiences of family violence as a child",61,5773076,21.34
+"Lazio","religious reasons",37,5773076,21.34
+"Lazio","not standing women’s empowerment",64.2,5773076,21.34
+"Lazio","abuse of drugs or alcohol",78.5,5773076,21.34
+"Lazio","need to feel superior than one’s partner/wife",74.7,5773076,21.34
+"Abruzzo","difficulty in managing anger",67.4,1300645,17.22
+"Abruzzo","considering women to be property",71.6,1300645,17.22
+"Abruzzo","having negative experiences of family violence as a child",64.9,1300645,17.22
+"Abruzzo","religious reasons",28.5,1300645,17.22
+"Abruzzo","not standing women’s empowerment",58,1300645,17.22
+"Abruzzo","abuse of drugs or alcohol",74.8,1300645,17.22
+"Abruzzo","need to feel superior than one’s partner/wife",68.3,1300645,17.22
+"Molise","difficulty in managing anger",71.5,303790,7.9
+"Molise","considering women to be property",76.6,303790,7.9
+"Molise","having negative experiences of family violence as a child",64.5,303790,7.9
+"Molise","religious reasons",28.9,303790,7.9
+"Molise","not standing women’s empowerment",57,303790,7.9
+"Molise","abuse of drugs or alcohol",77.6,303790,7.9
+"Molise","need to feel superior than one’s partner/wife",75.3,303790,7.9
+"Campania","difficulty in managing anger",71.4,5740291,17.25
+"Campania","considering women to be property",76.5,5740291,17.25
+"Campania","having negative experiences of family violence as a child",65.5,5740291,17.25
+"Campania","religious reasons",24.6,5740291,17.25
+"Campania","not standing women’s empowerment",63.5,5740291,17.25
+"Campania","abuse of drugs or alcohol",73.6,5740291,17.25
+"Campania","need to feel superior than one’s partner/wife",73,5740291,17.25
+"Puglia","difficulty in managing anger",69.5,3975528,15.37
+"Puglia","considering women to be property",78.3,3975528,15.37
+"Puglia","having negative experiences of family violence as a child",66.4,3975528,15.37
+"Puglia","religious reasons",24.1,3975528,15.37
+"Puglia","not standing women’s empowerment",64.4,3975528,15.37
+"Puglia","abuse of drugs or alcohol",75.8,3975528,15.37
+"Puglia","need to feel superior than one’s partner/wife",75.6,3975528,15.37
+"Basilicata","difficulty in managing anger",71.3,558587,10.56
+"Basilicata","considering women to be property",77.8,558587,10.56
+"Basilicata","having negative experiences of family violence as a child",68,558587,10.56
+"Basilicata","religious reasons",23.6,558587,10.56
+"Basilicata","not standing women’s empowerment",59,558587,10.56
+"Basilicata","abuse of drugs or alcohol",75.2,558587,10.56
+"Basilicata","need to feel superior than one’s partner/wife",71.2,558587,10.56
+"Calabria","difficulty in managing anger",64.3,1912021,10.15
+"Calabria","considering women to be property",72.9,1912021,10.15
+"Calabria","having negative experiences of family violence as a child",64.3,1912021,10.15
+"Calabria","religious reasons",28.8,1912021,10.15
+"Calabria","not standing women’s empowerment",59.8,1912021,10.15
+"Calabria","abuse of drugs or alcohol",69,1912021,10.15
+"Calabria","need to feel superior than one’s partner/wife",70,1912021,10.15
+"Sicilia","difficulty in managing anger",71.2,4908548,11.51
+"Sicilia","considering women to be property",77.2,4908548,11.51
+"Sicilia","having negative experiences of family violence as a child",63.9,4908548,11.51
+"Sicilia","religious reasons",25.5,4908548,11.51
+"Sicilia","not standing women’s empowerment",62.5,4908548,11.51
+"Sicilia","abuse of drugs or alcohol",73.3,4908548,11.51
+"Sicilia","need to feel superior than one’s partner/wife",73.7,4908548,11.51
+"Sardegna","difficulty in managing anger",69.3,1622257,14.92
+"Sardegna","considering women to be property",77.3,1622257,14.92
+"Sardegna","having negative experiences of family violence as a child",61.6,1622257,14.92
+"Sardegna","religious reasons",31.5,1622257,14.92
+"Sardegna","not standing women’s empowerment",62.2,1622257,14.92
+"Sardegna","abuse of drugs or alcohol",79.6,1622257,14.92
+"Sardegna","need to feel superior than one’s partner/wife",72.9,1622257,14.92
