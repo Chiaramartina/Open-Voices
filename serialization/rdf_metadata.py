@@ -1,12 +1,11 @@
 import os
 from rdflib import Graph, Namespace, Literal, URIRef
-from rdflib.namespace import DCTERMS, PROV, FOAF, XSD, RDF, RDFS
+from rdflib.namespace import DCTERMS, PROV, XSD, RDF, RDFS
 
 # Definizione dei namespace
 DCATAPIT = Namespace("http://dati.gov.it/onto/dcatapit/")
 DCAT = Namespace("https://www.w3.org/ns/dcat#")
 ADMS = Namespace("http://www.w3.org/ns/adms#")
-SKOS = Namespace("http://www.w3.org/2004/02/skos/core#")
 OV = Namespace("https://github.com/Chiaramartina/Open-Voices")
 CC = Namespace("http://creativecommons.org/ns#")
 
@@ -16,17 +15,14 @@ catalog_g = Graph()
 g.bind("dcat3", DCAT)
 g.bind("dct", DCTERMS)
 g.bind("prov", PROV)
-g.bind("foaf", FOAF)
 g.bind("adms", ADMS)
 g.bind("xsd", XSD)
-g.bind("skos", SKOS)
 g.bind("dcatapit", DCATAPIT)
 g.bind("ov", OV)
 g.bind("cc", CC)
 
 catalog_g.bind("dcat3", DCAT)
 catalog_g.bind("dct", DCTERMS)
-catalog_g.bind("foaf", FOAF)
 catalog_g.bind("adms", ADMS)
 catalog_g.bind("xsd", XSD)
 catalog_g.bind("dcatapit", DCATAPIT)

@@ -1576,7 +1576,7 @@
 
      
             <h3 class="analysis-second-title" >
-              RDF Assertion and Metadata for the mashup datasets
+              RDF Metadata Assertion of the Datasets
             </h3>
 
             <p class="analysis-text">
@@ -1594,33 +1594,24 @@
               with other public data resources in Italy.
             </p><br>
 
-            <p class="analysis-text">
-              The metadata for the source datasets were primarily derived from the original data sources. When metadata was incomplete or unavailable, additional information was inferred and supplemented following the same principles applied to the mashup datasets. For instance, themes were assigned to source datasets based on recognized European Authority standards.
-            </p>
-
             <h3 class="analysis-second-title" id="metadataAnalysisTable">
-              Additional Metadata for <b>source datasets</b>
+              Semantic Enrichment of Datasets
             </h3>
 
             <p class="analysis-text">
-              In providing the metadata for the source datasets, information have been retreived from original sources.
-              When missing, they have been induced and integrated according to the same guidelines adopted for mashup
-              datasets (ex. assignining a theme to source dataset has been done according to the same european
-              authority).
+              The metadata for the source datasets were primarily derived from the original data sources. When metadata was incomplete or unavailable, additional information was inferred and supplemented following the same principles applied to the mashup datasets. For instance, themes were assigned to source datasets based on recognized European Authority standards.
+              To enhance the semantic description of datasets, we have utilized several key ontologies, including <b>DCAT, DCTERMS, PROV, FOAF, ADMS, SKOS, CC</b>, and <b>DCAT-AP IT</b>. These ontologies provide a structured framework for describing datasets and their metadata, ensuring interoperability and adherence to Linked Open Data (LOD) standards. This approach facilitates the discoverability, understandability, and reuse of datasets across diverse contexts.</p><br>
+            <p class="analysis-text">
+              The DCAT (Data Catalog Vocabulary) ontology plays a central role in this script, serving to describe datasets and their catalogs. Key properties, such as dcat:dataset, associate datasets with a catalog, while dcat:theme categorizes datasets by their topics, and dcat:distribution specifies the available data formats. For example, datasets can be linked to themes like population statistics or societal issues using dcat:theme. DCAT provides a standardized vocabulary for publishing and sharing data catalogs on the web. Learn more about DCAT at W3C DCAT.
             </p>
-
-            <p class="analysis-text">It should be mentioned that, in case of D1 and D2, our source datasets were
-              downloaded from <a href="https://demo.istat.it/app/?i=RIC&l=en" target="_blank"> demo database
-                Endpoint</a> where very few
-              and non structured metadata were available.
-              Nonetheless, the same datasets are also published in the <a
-                href="https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,POP,1.0/POP_INTCENSPOP/DCIS_RICPOPRES2011/IT1,164_164_DF_DCIS_RICPOPRES2011_1,1.0"
-                target="_blank"> IstatDati database Endpoint</a> where the Standard protocol <a href="https://sdmx.org/"
-                target="_blank">Statistical Data and Metadata eXchange (SDMX)</a> is adopted.
-              For more information about Istat Data and SDMX metadata incorporation carried out by Istat see <span
-                class="underlined--bg underlined--offset--bg"><a
-                  href="https://www.istat.it/en/methods-and-tools/sdmx-web-service" target="_blank"><b>SDMX web service
-                    for Istat data</b></a></span>.
+            <p class="analysis-text">
+              DCTERMS (Dublin Core Terms) is used to describe general metadata, including dcterms:title for dataset titles, dcterms:description for dataset descriptions, and dcterms:accessRights to indicate accessibility. This inclusion ensures the use of a widely recognized standard for metadata description. More information about DCTERMS can be found at Dublin Core Terms.
+            </p>
+            <p class="analysis-text">
+              The PROV ontology is employed to track dataset provenance, using prov:wasAttributedTo to link datasets to their publishers. This is essential for establishing the origin and accountability of datasets, thus supporting transparency and the documentation of dataset lineage. For more details on PROV, visit W3C PROV.
+            </p>
+            <p class="analysis-text">
+              ADMS (Asset Description Metadata Schema) is included to complement DCAT by describing assets like datasets and services, particularly in government and public administration contexts. Though not extensively used in this snippet, ADMS plays an important role in the asset management landscape. For further details, consult the ADMS Specification.
             </p>
 
             <!-- Metadata analysis -->
