@@ -2295,3 +2295,13 @@ h3.analysis-second-title {
   width: 100%;
   height: 400px;
 }
+
+/* Rimuovi il grassetto dalle altre parti del testo */
+.portfolio-item p {
+    font-weight: normal !important;
+}
+
+/* Rimuovi completamente il grassetto dalla sezione #datasets */
+#datasets {
+  font-weight: normal !important;
+}

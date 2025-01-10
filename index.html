@@ -250,47 +250,6 @@
     </section><!-- End Counts Section -->
 
 
-    
-    <!-- Geo map + bar chart victims section -->
-    <section id="results" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <!-- GRAFICI (mappa it + bar chart vittime) -->
-        <div class="container analysis-card" id="geo-map" data-bs-parent="#results">
-          <div class="align-items-stretch mb-5 mb-lg-0">
-            <div class="analysis-box">
-              <div class="analysis-box-title">
-                <h4 class="year-result-text">Victims of violence by geographical areas</h4>
-              </div>
-
-                <!-- Map -->
-                <div class="row justify-content-center" id="map-container">
-                  <div class="col-md-12">
-                    <div class="map" id="map_regions" style="width: 100%; height: 100vh;"></div>
-                  </div>
-                </div>
-
-                <hr>
-                <!-- bar chart victims -->
-                <div class="container-bar-vic">
-                  <div class="analysis-box-title">
-                  <h4 class="year-result-text">Victims per 100k inhabitants</h4>
-                  <p>
-                    Highest rate: Lazio 21.34%<br>
-                    Lowest rate: Molise 7.90%
-                  </p>
-                </div>
-
-                <div id="grafico"></div>
-              </div>
-
-            
-            </div>
-          </div> 
-        </div>
-    </section>
-    <!-- End Geo Map + bar chart Section -->
-
 
 
     <!-- ======= Datasets Section ======= -->
@@ -304,7 +263,7 @@
         <div class="row content">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
             <p>
-              As mentioned, our project comprises the use of <b>6 different datasets</b>, between source ones and
+              As mentioned, our project comprises the use of <b>9 different datasets</b>, between source ones and
               mashup ones.
             </p>
             <p>
@@ -459,10 +418,70 @@
                 <b>Format</b>: .csv<br>
                 <b>Metadata</b>: Provided<br>
                 <b>URI</b>: <a href="https://github.com/OrsolaMBorrini/blessedfruit/blob/main/data/mashupDS/MD1_17.csv"
-                  target="_blank">MD-D1/5/4</a><br>
+                  target="_blank">MD-D1/4/5</a><br>
                 <b>License</b>: CC BY 4.O<br>
                 <b>Download</b>:
-                <a href="data/mashupDS/D1-D5-D4.csv" download>MD1</a>
+                <a href="data/mashup/D1_D4_D5.csv" download>MD6</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 portfolio-item mashup-dataset">
+            <div class="icon-box">
+              <div class="dataset-title">
+                <i class="bi bi-database" style="color: #b74d3a;"></i>
+                <h3>MD7 - VICTIMS GEO FEMALES </h3>
+              </div>
+              <p style="border-top: #b74d3a solid 1px;">
+                <b>ID</b>: MD7<br>
+                <b>Creation date</b>: 2 January 2025<br>
+                <b>Format</b>: .csv<br>
+                <b>Metadata</b>: Provided<br>
+                <b>URI</b>: <a href="https://github.com/OrsolaMBorrini/blessedfruit/blob/main/data/mashupDS/MD1_17.csv"
+                  target="_blank">MD-D1/4</a><br>
+                <b>License</b>: CC BY 4.O<br>
+                <b>Download</b>:
+                <a href="data/mashup/D1_D4_FEMALES.csv" download>MD7</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 portfolio-item mashup-dataset">
+            <div class="icon-box">
+              <div class="dataset-title">
+                <i class="bi bi-database" style="color: #b74d3a;"></i>
+                <h3>MD8 - VICTIMS GEO MALES </h3>
+              </div>
+              <p style="border-top: #b74d3a solid 1px;">
+                <b>ID</b>: MD8<br>
+                <b>Creation date</b>: 2 January 2025<br>
+                <b>Format</b>: .csv<br>
+                <b>Metadata</b>: Provided<br>
+                <b>URI</b>: <a href="https://github.com/OrsolaMBorrini/blessedfruit/blob/main/data/mashupDS/MD1_17.csv"
+                  target="_blank">MD-D1/4</a><br>
+                <b>License</b>: CC BY 4.O<br>
+                <b>Download</b>:
+                <a href="data/mashup/D1_D4_MALES.csv" download>MD8</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 portfolio-item mashup-dataset">
+            <div class="icon-box">
+              <div class="dataset-title">
+                <i class="bi bi-database" style="color: #b74d3a;"></i>
+                <h3>MD9 - VICTIMS GEO TOTAL </h3>
+              </div>
+              <p style="border-top: #b74d3a solid 1px;">
+                <b>ID</b>: MD9<br>
+                <b>Creation date</b>: 2 January 2025<br>
+                <b>Format</b>: .csv<br>
+                <b>Metadata</b>: Provided<br>
+                <b>URI</b>: <a href="https://github.com/OrsolaMBorrini/blessedfruit/blob/main/data/mashupDS/MD1_17.csv"
+                  target="_blank">MD-D1/4</a><br>
+                <b>License</b>: CC BY 4.O<br>
+                <b>Download</b>:
+                <a href="data/mashup/D1_D4_TOTAL.csv" download>MD9</a>
               </p>
             </div>
           </div>
@@ -2534,12 +2553,44 @@
       <b>Our main visualizations</b>:
     </p>
     <h5><span class="underlined underlined--offset"><b>choropleth maps</b></span></h5>
-    <p class="analysis-text">
-      We decided to provide choropleth maps as they were the best option to visualize individually the variation
-      of our data over our geographical area of interest,
-      as well as to visually highlight similarities in our variables trends.<br>
-      Please note that:
-    <ul>
+     <!-- Geo map + bar chart victims section -->
+     <section id="results" class="about">
+        <div class="container" data-aos="fade-up">
+  
+          <!-- GRAFICI (mappa it + bar chart vittime) -->
+          <div class="container analysis-card" id="geo-map" data-bs-parent="#results">
+            <div class="align-items-stretch mb-5 mb-lg-0">
+              <div class="analysis-box">
+                <div class="analysis-box-title">
+                  <h4 class="year-result-text">Victims of violence by geographical areas</h4>
+                </div>
+  
+                  <!-- Map -->
+                  <div class="row justify-content-center" id="map-container">
+                    <div class="col-md-12">
+                      <div class="map" id="map_regions" style="width: 100%; height: 100vh;"></div>
+                    </div>
+                  </div>
+  
+                  <hr>
+                  <!-- bar chart victims -->
+                  <div class="container-bar-vic">
+                    <div class="analysis-box-title">
+                    <h4 class="year-result-text">Victims per 100k inhabitants</h4>
+                    <p>
+                      Highest rate: Lazio 21.34%<br>
+                      Lowest rate: Molise 7.90%
+                    </p>
+                  </div>
+  
+                  <div id="grafico"></div>
+                </div>
+              </div>
+            </div> 
+          </div>
+      </section>
+      <!-- End Geo Map + bar chart Section -->
+  
       <li><b>Religious observance percentage rates</b> are calculated over the general population without
         distinction in gender or age class</li>
       <li><b>Pregnancy percentage rates</b> are calculated over a sample population of women belonging to an age
