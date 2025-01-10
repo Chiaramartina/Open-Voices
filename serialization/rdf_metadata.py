@@ -85,7 +85,7 @@ datasets = [
         "uri": "https://github.com/Chiaramartina/Open-Voices/blob/main/data/original/D5_CAUSES_INDICATION.csv"
     },
     {
-        "id": "D1_D4_D5",
+        "id": "MD6_VICTIMS_CAUSES_INDICATION",
         "distribution": "CSV",
         "title": "Regional Analysis of Violence Causes and Victimization in Italy",
         "description": "This dataset provides information on violence-related data across Italian regions. It includes the territory (representing different Italian regions), possible causes of violence, the corresponding value assigned to each cause, and the number of victims per 100,000 inhabitants for each region. The dataset aims to analyze and compare the regional variations in violence causes and their impact on the population.",
@@ -96,7 +96,7 @@ datasets = [
         "uri": "https://github.com/Chiaramartina/Open-Voices/blob/main/data/mashup/D1_D4_D5.csv"
     },
     {
-        "id": "kmean_clusters",
+        "id": "MD5_kmean_clusters",
         "distribution": "CSV",
         "title": "Cluster Analysis of Victim Rates across Italian Regions",
         "description": "The dataset outlines population, victim counts, and victim rates per 100,000 inhabitants across Italian regions, categorized into Low, Medium, and High intensity clusters. Regions like Lazio and Campania show higher victim rates (High), while areas such as Valle d'Aosta and Trentino Alto Adige have lower rates (Low). The Medium cluster includes regions with intermediate rates, such as Piemonte and Toscana. Cluster assignments are informed by K-Means values.",
@@ -107,7 +107,7 @@ datasets = [
         "uri": "https://github.com/Chiaramartina/Open-Voices/blob/main/data/mashup/kmean_clusters.csv"
     },
     {
-        "id": "D1_D4_TOTAL",
+        "id": "MD9_VICTIMS_GEO_TOTAL",
         "distribution": "CSV",
         "title": "Total Victim Rates per 100k Inhabitants by Region in Italy",
         "description": "The dataset provides victim rates per 100,000 inhabitants across Italian regions, with values ranging from 7.90% (Molise) to 21.34% (Lazio). Regions like Lazio, Abruzzo, and Campania exhibit higher rates, while Valle d'Aosta, Trentino Alto Adige, and Molise report the lowest. Most other regions show moderate rates between these extremes.",
@@ -118,7 +118,7 @@ datasets = [
         "uri": "https://github.com/Chiaramartina/Open-Voices/blob/main/data/mashup/D1_D4_TOTAL.csv"
     },
     {
-        "id": "D1_D4_FEMALES",
+        "id": "MD7_VICTIMS_GEO_FEMALES",
         "distribution": "CSV",
         "title": "Females Victim Rates per 100k Inhabitants by Region in Italy",
         "description": "The dataset presents victim rates per 100,000 inhabitants across Italian regions. Lazio records the highest rate (20.7%), while Valle d'Aosta (7.16%) and Molise (7.57%) have the lowest. Most regions fall within a moderate range, between 10%, and 16%.",
@@ -129,7 +129,7 @@ datasets = [
         "uri": "https://github.com/Chiaramartina/Open-Voices/blob/main/data/mashup/D1_D4_FEMALES.csv"
     },
     {
-        "id": "D1_D4_MALES",
+        "id": "MD8_VICTIMS_GEO_MALES",
         "distribution": "CSV",
         "title": "Males Victim Rates per 100k Inhabitants by Region in Italy",
         "description": "The dataset details male victim rates per 100,000 inhabitants across Italian regions. Lazio reports the highest rate (0.64%), followed by Basilicata, Abruzzo, and Puglia (0.53–0.54%). Calabria has the lowest rate (0.16%), while most regions fall between 0.3 and 0.4%.",
