@@ -96,9 +96,9 @@
             {
                 "id": "org.knime.base.node.io.tablecreator.TableCreator2NodeFactory",
                 "nodename": "Table Creator",
-                "nrexecs": 1,
+                "nrexecs": 2,
                 "nrfails": 0,
-                "exectime": 207,
+                "exectime": 1103,
                 "nrcreated": 0,
                 "successor": "n/a",
                 "successornodename": "n/a"
@@ -152,7 +152,7 @@
             "WEB_UI": 16
         }
     },
-    "uptime": 89655185,
+    "uptime": 111553122,
     "workflowsOpened": 7,
     "remoteWorkflowsOpened": 0,
     "columnarStorageWorkflowsOpened": 0,
@@ -163,7 +163,7 @@
     "lastUsedPerspective": "starter",
     "launches": 4,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 357752878,
+    "timeSinceLastStart": 445344626,
     "crashes": 0,
     "properlyShutDown": false
 }
