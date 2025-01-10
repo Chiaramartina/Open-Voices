@@ -85,43 +85,67 @@ datasets = [
         "uri": "https://github.com/Chiaramartina/Open-Voices/blob/main/data/original/D5_CAUSES_INDICATION.csv"
     },
     {
-        "id": "D1_D4",
-        "distribution": "CSV",
-        "title": "",
-        "description": "This dataset provides information on violence-related data across Italian regions. It includes the territory (representing different Italian regions), possible causes of violence, the corresponding value assigned to each cause, and the number of victims per 100,000 inhabitants for each region. The dataset aims to analyze and compare the regional variations in violence causes and their impact on the population.",
-        "theme": "http://publications.europa.eu/resource/authority/data-theme/SOCI",
-        "first_production_year": "2024",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "publisher": "https://github.com/Chiaramartina/Open-Voices",
-        "uri": "https://github.com/Chiaramartina/Open-Voices/blob/main/data/mashup/D1_D4_D5.csv"
-    },
-    {
-        "id": "D1_D4_D5",
+        "id": "MD6_VICTIMS_CAUSES_INDICATION",
         "distribution": "CSV",
         "title": "Regional Analysis of Violence Causes and Victimization in Italy",
         "description": "This dataset provides information on violence-related data across Italian regions. It includes the territory (representing different Italian regions), possible causes of violence, the corresponding value assigned to each cause, and the number of victims per 100,000 inhabitants for each region. The dataset aims to analyze and compare the regional variations in violence causes and their impact on the population.",
         "theme": "http://publications.europa.eu/resource/authority/data-theme/SOCI",
         "first_production_year": "2024",
         "license": "https://creativecommons.org/licenses/by/4.0/",
-        "publisher": "https://github.com/Chiaramartina/Open-Voices",
+        "publisher": ["https://github.com/Chiaramartina", "https://github.com/Asemica-me"],
         "uri": "https://github.com/Chiaramartina/Open-Voices/blob/main/data/mashup/D1_D4_D5.csv"
     },
     {
-        "id": "kmean_clusters",
+        "id": "MD5_kmean_clusters",
         "distribution": "CSV",
-        "title": "Regional Analysis of Violence Causes and Victimization in Italy",
-        "description": "This dataset provides information on violence-related data across Italian regions. It includes the territory (representing different Italian regions), possible causes of violence, the corresponding value assigned to each cause, and the number of victims per 100,000 inhabitants for each region. The dataset aims to analyze and compare the regional variations in violence causes and their impact on the population.",
+        "title": "Cluster Analysis of Victim Rates across Italian Regions",
+        "description": "The dataset outlines population, victim counts, and victim rates per 100,000 inhabitants across Italian regions, categorized into Low, Medium, and High intensity clusters. Regions like Lazio and Campania show higher victim rates (High), while areas such as Valle d'Aosta and Trentino Alto Adige have lower rates (Low). The Medium cluster includes regions with intermediate rates, such as Piemonte and Toscana. Cluster assignments are informed by K-Means values.",
         "theme": "http://publications.europa.eu/resource/authority/data-theme/SOCI",
         "first_production_year": "2024",
         "license": "https://creativecommons.org/licenses/by/4.0/",
-        "publisher": "https://github.com/Chiaramartina/Open-Voices",
-        "uri": "https://github.com/Chiaramartina/Open-Voices/blob/main/data/mashup/D1_D4_D5.csv"
-    }
+        "publisher": ["https://github.com/Asemica-me"],
+        "uri": "https://github.com/Chiaramartina/Open-Voices/blob/main/data/mashup/kmean_clusters.csv"
+    },
+    {
+        "id": "MD9_VICTIMS_GEO_TOTAL",
+        "distribution": "CSV",
+        "title": "Total Victim Rates per 100k Inhabitants by Region in Italy",
+        "description": "The dataset provides victim rates per 100,000 inhabitants across Italian regions, with values ranging from 7.90% (Molise) to 21.34% (Lazio). Regions like Lazio, Abruzzo, and Campania exhibit higher rates, while Valle d'Aosta, Trentino Alto Adige, and Molise report the lowest. Most other regions show moderate rates between these extremes.",
+        "theme": "http://publications.europa.eu/resource/authority/data-theme/SOCI",
+        "first_production_year": "2024",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "publisher": ["https://github.com/Chiaramartina", "https://github.com/Asemica-me"],
+        "uri": "https://github.com/Chiaramartina/Open-Voices/blob/main/data/mashup/D1_D4_TOTAL.csv"
+    },
+    {
+        "id": "MD7_VICTIMS_GEO_FEMALES",
+        "distribution": "CSV",
+        "title": "Females Victim Rates per 100k Inhabitants by Region in Italy",
+        "description": "The dataset presents victim rates per 100,000 inhabitants across Italian regions. Lazio records the highest rate (20.7%), while Valle d'Aosta (7.16%) and Molise (7.57%) have the lowest. Most regions fall within a moderate range, between 10%, and 16%.",
+        "theme": "http://publications.europa.eu/resource/authority/data-theme/SOCI",
+        "first_production_year": "2024",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "publisher": ["https://github.com/Chiaramartina", "https://github.com/Asemica-me"],
+        "uri": "https://github.com/Chiaramartina/Open-Voices/blob/main/data/mashup/D1_D4_FEMALES.csv"
+    },
+    {
+        "id": "MD8_VICTIMS_GEO_MALES",
+        "distribution": "CSV",
+        "title": "Males Victim Rates per 100k Inhabitants by Region in Italy",
+        "description": "The dataset details male victim rates per 100,000 inhabitants across Italian regions. Lazio reports the highest rate (0.64%), followed by Basilicata, Abruzzo, and Puglia (0.53–0.54%). Calabria has the lowest rate (0.16%), while most regions fall between 0.3 and 0.4%.",
+        "theme": "http://publications.europa.eu/resource/authority/data-theme/SOCI",
+        "first_production_year": "2024",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "publisher": ["https://github.com/Chiaramartina", "https://github.com/Asemica-me"],
+        "uri": "https://github.com/Chiaramartina/Open-Voices/blob/main/data/mashup/D1_D4_MALES.csv"
+    },
 ]
 
 # Creazione dei dataset
-for dataset in datasets:
+for dataset in datasets: 
     dataset_uri = OV[dataset["id"]]
+    catalog_g.add((URIRef("https://github.com/Chiaramartina/Open-Voices/tree/main/data"),
+                   DCAT.dataset, URIRef(dataset["uri"])))
     g.add((dataset_uri, DCAT.title, Literal(dataset["title"], lang="en")))
     g.add((dataset_uri, RDF.type, DCAT.Dataset))
     g.add((dataset_uri, RDF.type, PROV.Entity))
@@ -129,9 +153,7 @@ for dataset in datasets:
     g.add((dataset_uri, DCAT.theme, URIRef(dataset["theme"])))
     g.add((dataset_uri, DCAT.releaseDate, Literal(dataset["first_production_year"], datatype=XSD.year)))
     g.add((dataset_uri, DCTERMS.accessRights, Literal("Public", lang="en")))
-    g.add((dataset_uri, DCAT.provenance, URIRef(dataset["publisher"])))
-    g.add((dataset_uri, PROV.wasAttributedTo, URIRef(dataset["publisher"])))
-    g.add((dataset_uri, DCAT.accessRights, URIRef(dataset["license"])))
+    g.add((dataset_uri, DCAT.license, URIRef(dataset["license"])))
     g.add((dataset_uri, DCAT.distribution, Literal("Excel")))
     g.add((dataset_uri, DCAT.distribution, Literal("CSV")))
     g.add((dataset_uri, DCAT.distribution, Literal("PC-axis")))
@@ -139,18 +161,21 @@ for dataset in datasets:
     g.add((dataset_uri, DCAT.language,  Literal("it", datatype=XSD.language)))
     g.add((dataset_uri, DCAT.language,  Literal("en", datatype=XSD.language)))
 
+    if isinstance(dataset["publisher"], list):
+        for publisher in dataset["publisher"]:
+            g.add((dataset_uri, PROV.wasAttributedTo, URIRef(publisher)))
+    else:
+        # For a single publisher
+        g.add((dataset_uri, PROV.wasAttributedTo, URIRef(dataset["publisher"])))
 
-    # Aggiungi al catalogo
-    catalog_g.add((URIRef("https://github.com/Chiaramartina/Open-Voices/tree/main/data"),
-                   DCAT.dataset, URIRef(dataset["uri"])))
 
 # Aggiungi informazioni al catalogo
 catalog_uri = URIRef("https://github.com/Chiaramartina/Open-Voices/tree/main/data")
 catalog_g.add((catalog_uri, RDF.type, DCAT.Catalog))
-catalog_g.add((catalog_uri, DCTERMS.title, Literal("Open Voices - Catalog", lang="en")))
+catalog_g.add((catalog_uri, DCTERMS.title, Literal("Open Voices OADE Project - Datasets Catalog", lang="en")))
 catalog_g.add((catalog_uri, DCTERMS.description,
                Literal("Catalog containing the datasets for the Open Voices project", lang="en")))
-catalog_g.add((catalog_uri, DCTERMS.publisher, URIRef("https://github.com/Chiaramartina/Open-Voices")))
+catalog_g.add((catalog_uri, PROV.wasAttributedTo, URIRef("https://github.com/Chiaramartina/Open-Voices")))
 catalog_g.add((catalog_uri, DCTERMS.issued, Literal("2025-01-01", datatype=XSD.date)))
 catalog_g.add((catalog_uri, DCTERMS.modified, Literal("2025-01-01", datatype=XSD.date)))
 catalog_g.add((catalog_uri, DCTERMS.license, URIRef("https://creativecommons.org/licenses/by/4.0/")))
