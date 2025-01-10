@@ -2305,3 +2305,13 @@ h3.analysis-second-title {
 #datasets {
   font-weight: normal !important;
 }
+
+/* Rimuove il grassetto da tutto, tranne i tag <b> */
+#target1 {
+  font-weight: normal !important;
+}
+
+/* Mantieni il grassetto solo per il tag <b> */
+#target1 b {
+  font-weight: bold !important;
+}
