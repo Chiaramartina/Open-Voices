@@ -142,8 +142,10 @@ datasets = [
 ]
 
 # Creazione dei dataset
-for dataset in datasets:
+for dataset in datasets: 
     dataset_uri = OV[dataset["id"]]
+    catalog_g.add((URIRef("https://github.com/Chiaramartina/Open-Voices/tree/main/data"),
+                   DCAT.dataset, URIRef(dataset["uri"])))
     g.add((dataset_uri, DCAT.title, Literal(dataset["title"], lang="en")))
     g.add((dataset_uri, RDF.type, DCAT.Dataset))
     g.add((dataset_uri, RDF.type, PROV.Entity))
@@ -158,13 +160,14 @@ for dataset in datasets:
     g.add((dataset_uri, DCAT.distribution, Literal("SDMX-XML")))
     g.add((dataset_uri, DCAT.language,  Literal("it", datatype=XSD.language)))
     g.add((dataset_uri, DCAT.language,  Literal("en", datatype=XSD.language)))
-for publisher in dataset["publisher"]:
-    g.add((dataset_uri, PROV.wasAttributedTo, URIRef(publisher))) 
 
+    if isinstance(dataset["publisher"], list):
+        for publisher in dataset["publisher"]:
+            g.add((dataset_uri, PROV.wasAttributedTo, URIRef(publisher)))
+    else:
+        # For a single publisher
+        g.add((dataset_uri, PROV.wasAttributedTo, URIRef(dataset["publisher"])))
 
-    # Aggiungi al catalogo
-    catalog_g.add((URIRef("https://github.com/Chiaramartina/Open-Voices/tree/main/data"),
-                   DCAT.dataset, URIRef(dataset["uri"])))
 
 # Aggiungi informazioni al catalogo
 catalog_uri = URIRef("https://github.com/Chiaramartina/Open-Voices/tree/main/data")

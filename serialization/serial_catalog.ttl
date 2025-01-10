@@ -14,7 +14,16 @@
     dct:title "Open Voices OADE Project - Datasets Catalog"@en ;
     adms:identifier "OV-Catalog"^^xsd:string ;
     prov:wasAttributedTo <https://github.com/Chiaramartina/Open-Voices> ;
-    dcat3:dataset <https://github.com/Chiaramartina/Open-Voices/blob/main/data/mashup/D1_D4_MALES.csv> ;
+    dcat3:dataset <https://github.com/Chiaramartina/Open-Voices/blob/main/data/mashup/D1_D4_D5.csv>,
+        <https://github.com/Chiaramartina/Open-Voices/blob/main/data/mashup/D1_D4_FEMALES.csv>,
+        <https://github.com/Chiaramartina/Open-Voices/blob/main/data/mashup/D1_D4_MALES.csv>,
+        <https://github.com/Chiaramartina/Open-Voices/blob/main/data/mashup/D1_D4_TOTAL.csv>,
+        <https://github.com/Chiaramartina/Open-Voices/blob/main/data/mashup/kmean_clusters.csv>,
+        <https://github.com/Chiaramartina/Open-Voices/blob/main/data/original/D1_POPULATION.csv>,
+        <https://github.com/Chiaramartina/Open-Voices/blob/main/data/original/D2_OPINIONS_VIOLENCE_GEOAREAS.csv>,
+        <https://github.com/Chiaramartina/Open-Voices/blob/main/data/original/D3_OPINIONS_PARTNER_GEOAREAS.csv>,
+        <https://github.com/Chiaramartina/Open-Voices/blob/main/data/original/D4_VICTIMS.csv>,
+        <https://github.com/Chiaramartina/Open-Voices/blob/main/data/original/D5_CAUSES_INDICATION.csv> ;
     dcat3:language "en"^^xsd:language .
 
 <https://creativecommons.org/licenses/by/4.0/> a cc:License ;
