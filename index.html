@@ -1476,7 +1476,7 @@
             <p class="analysis-text">
               All generated mashup datasets have been meticulously documented using metadata, adhering to the guidelines outlined in the <a href="https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/index.html"
                 target="_blank"><b>DCAT-AP_IT</b></a> standard. This choice aligns with the <span
-                class="underlined--bg underlined--offset--bg"><b> Italian Agency for Digitalization (AGID)</b></span> directives for the valorization of public information heritage.<br><br>
+                class="underlined--bg underlined--offset--bg"><b>Italian Agency for Digitalization (AGID)</b></span> directives for the valorization of public information heritage.<br><br>
 
               Given that these datasets represent data of significant national interest and are derived from Istat, an Italian public research institution, the adoption of <b>DCAT-AP_IT</b> (2016), was deemed most appropriate. <br>Although this national standard is based on the earlier <b>DCAT v1.0</b> and introduces stricter constraints 
               compared to the more flexible 
@@ -1494,19 +1494,22 @@
 
             <p class="analysis-text">
               The metadata for the source datasets were primarily derived from the original data sources. When metadata was incomplete or unavailable, additional information was inferred and supplemented following the same principles applied to the mashup datasets. For instance, themes were assigned to source datasets based on recognized European Authority standards.
-              To enhance the semantic description of datasets, we have utilized several key ontologies, including <b>DCAT, DCTERMS, PROV, FOAF, ADMS, SKOS, CC</b>, and <b>DCAT-AP IT</b>. These ontologies provide a structured framework for describing datasets and their metadata, ensuring interoperability and adherence to Linked Open Data (LOD) standards. This approach facilitates the discoverability, understandability, and reuse of datasets across diverse contexts.</p><br>
+              To enhance the semantic description of datasets, we have utilized several key ontologies, including <b>DCAT, DCTERMS, PROV, FOAF, ADMS, SKOS, CC</b>, and <b>DCAT-AP IT</b>. These ontologies provide a structured framework for describing datasets and their metadata, ensuring interoperability and adherence to <span class="underlined--bg underlined--offset--bg"><b>Linked Open Data (LOD) standards</b></span>. This approach facilitates the discoverability, understandability, and reuse of datasets across diverse contexts.</p><br>
             <p class="analysis-text">
-              The DCAT (Data Catalog Vocabulary) ontology plays a central role in this script, serving to describe datasets and their catalogs. Key properties, such as dcat:dataset, associate datasets with a catalog, while dcat:theme categorizes datasets by their topics, and dcat:distribution specifies the available data formats. For example, datasets can be linked to themes like population statistics or societal issues using dcat:theme. DCAT provides a standardized vocabulary for publishing and sharing data catalogs on the web. Learn more about DCAT at W3C DCAT.
+              The <span class="underlined--bg underlined--offset--bg"><b>DCAT (Data Catalog Vocabulary) ontology</b></span> plays a central role, serving to describe datasets and data catalogs and publish them on the Web. Key properties such as <code>dcat:dataset</code>, associate datasets with a catalog, while <code>dcat:theme</code> categorizes datasets by their topics, and <code>dcat:distribution</code> specifies the available data formats. For example, datasets can be linked to themes like population statistics or societal issues using <code>dcat:theme</code>. Learn more about DCAT Version 3 at <a href="https://www.w3.org/TR/vocab-dcat-3/" target="_blank">W3C DCAT</a>.
             </p>
             <p class="analysis-text">
-              DCTERMS (Dublin Core Terms) is used to describe general metadata, including dcterms:title for dataset titles, dcterms:description for dataset descriptions, and dcterms:accessRights to indicate accessibility. This inclusion ensures the use of a widely recognized standard for metadata description. More information about DCTERMS can be found at Dublin Core Terms.
+              <span class="underlined--bg underlined--offset--bg"><b>DCTERMS (Dublin Core Terms)</b></span> is used to describe general metadata, including <code>dcterms:title</code> for dataset titles and descriptions, and <code>dcterms:accessRights</code> to indicate accessibility. This inclusion ensures the use of a widely recognized standard for metadata description. More information about DCTERMS can be found at <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/" target="_blank">Dublin Core Terms</a>.
             </p>
             <p class="analysis-text">
-              The PROV ontology is employed to track dataset provenance, using prov:wasAttributedTo to link datasets to their publishers. This is essential for establishing the origin and accountability of datasets, thus supporting transparency and the documentation of dataset lineage. For more details on PROV, visit W3C PROV.
+              <span class="underlined--bg underlined--offset--bg"><b>ADMS (Asset Description Metadata Schema)</b></span> is included to complement DCAT by describing assets like datasets and services, particularly in government and public administration contexts. ADMS plays an important role in the asset management landscape. For further details, consult the <a href="http://www.w3.org/ns/adms#" target="_blank">ADMS Specification</a>.
             </p>
             <p class="analysis-text">
-              ADMS (Asset Description Metadata Schema) is included to complement DCAT by describing assets like datasets and services, particularly in government and public administration contexts. Though not extensively used in this snippet, ADMS plays an important role in the asset management landscape. For further details, consult the ADMS Specification.
+              <span class="underlined--bg underlined--offset--bg"><b>CC (Creative Commons)</b></span> provides a vocabulary for licensing datasets, such as <code>cc:license</code>, ensuring clear and standardized license attribution. Visit <a href="http://creativecommons.org/ns#" target="_blank">Creative Commons</a> specifications for further insights.
             </p>
+            <p class="analysis-text">
+              Finally, <span class="underlined--bg underlined--offset--bg"><b>DCAT-AP IT (DCAT Application Profile for Italy)</b></span> is referenced through <code>dcatapit:</code> to align with Italian government open data standards. It extends DCAT to meet specific national requirements. For more information, check out <a href="http://dati.gov.it/onto/dcatapit/" target="_blank">DCAT-AP IT</a>.
+            </p><br>
 
             <!-- Metadata analysis -->
             <nav>
@@ -1530,7 +1533,7 @@
                     <tbody>
                       <tr>
                         <th scope="row">Title</th>
-                        <td>Blessed be the fruit - Catalog</td>
+                        <td>Open Voices OADE Project - Datasets Catalog</td>
                       </tr>
                       <tr>
                         <th scope="row">Identifier</th>
