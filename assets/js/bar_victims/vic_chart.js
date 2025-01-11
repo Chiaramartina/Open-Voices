@@ -44,7 +44,7 @@ var dati = [
         x: regioni,
         y: vittimeMaschili,
         name: 'Males',
-        marker: { color: 'green' }
+        marker: { color: 'rgb(206, 174, 14)' }
     }
 ];
 

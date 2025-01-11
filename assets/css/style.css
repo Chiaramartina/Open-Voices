@@ -492,7 +492,7 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #98181f;
+  background: #98181f !important;
   color: #fff;
 }
 
