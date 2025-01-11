@@ -2130,115 +2130,85 @@
         </div>
 
 
-        <div class="row" data-aos="fade-up" data-aos-delay="200">
-          <div class="click-instruction">
-            <span class="underlined--bg-g underlined--offset--bg-g">
-              <b>Click on a dataset to inspect the bar charts!</b>
-            </span>
-          </div>
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="viz-buttons">
-              <li class="map-li" type="button" data-bs-toggle="collapse" data-bs-target="#opinions" aria-expanded="false">
-                D2
-              </li>
-              <li class="map-li" type="button" data-bs-toggle="collapse" data-bs-target="#victim" aria-expanded="false">
-                D3
-              </li>
-              <li class="map-li" type="button" data-bs-toggle="collapse" data-bs-target="#causes" aria-expanded="false">
-                D5
-              </li>
-            </ul>
+        
+        <!-- Opinions section (directly visible) -->
+        <div class="section-title justify-content-center" data-aos="fade-up" data-aos-delay="250">
+          <p class="factor-text">Opinions about sexual violence </p>
+          <p>
+              This section explores the views of Italian adults on gender roles and sexual violence, broken down by region. The bar graph shows the degree of agreement with various stereotypes. The data show how different regions of Italy respond to these beliefs, highlighting cultural and social variations in perceptions of violence against women.  
+          </p>
+          <br>
+        
+          <div class="container time-series align-items-center justify-content-center" data-num="1">
+            <div class="chart-container-wrapper">
+              <div id="chart-container"></div>
+        
+              <div id="controls">
+                <h2>Controls</h2>
+                <div>
+                    <label for="region-dropdown">Choose a region:</label>
+                    <select id="region-dropdown">
+                    </select>
+                </div>
+                <label for="region-dropdown">Select a stereotype:</label>
+                <div id="stereotype-checkboxes" class="stereotype-checkboxes"></div>
+              </div>
+            </div>
           </div>
         </div>
         
-
-<!-- Opinions section -->
-<div class="collapse" id="opinions">
-<div class="section-title justify-content-center" data-aos="fade-up" data-aos-delay="250">
-  <p class="factor-text">Opinions about sexual violence </p>
-  <p>
-      This section explores the views of Italian adults on gender roles and sexual violence, broken down by region. The bar graph shows the degree of agreement with various stereotypes. The data show how different regions of Italy respond to these beliefs, highlighting cultural and social variations in perceptions of violence against women.  </p>
-  <br>
-
-  <div class="container time-series align-items-center justify-content-center" data-num="1">
-    <div class="chart-container-wrapper">
-      <div id="chart-container"></div>
-
-  <div id="controls">
-      <h2>Controls</h2>
-      <div>
-          <label for="region-dropdown">Choose a region:</label>
-          <select id="region-dropdown">
-          </select>
-      </div>
-      <label for="region-dropdown">Select a stereotype:</label>
-      <div id="stereotype-checkboxes" class="stereotype-checkboxes"></div>
-  </div>
-
-    </div>
-  </div>
-</div>
-</div>
-
-<!-- Violence section -->
-<div class="collapse" id="victim">
-  <div class="section-title justify-content-center" data-aos="fade-up" data-aos-delay="250">
-    <p class="factor-text">Acceptability of intimate partner violence</p>
-    <p>
-      This section examines the acceptability of intimate partner violence in different regions of Italy. The bar graph shows the acceptability of various violent behaviors. The data shows the percentage of people who consider these behaviors acceptable or not, broken down by region, contributing to an understanding of cultural differences in opinion about domestic violence.
-    </p>
-    <br>
-
-    <div class="container time-series align-items-center justify-content-center" data-num="1">
-      <div class="chart-container-wrapper">
-          <div id="chart-container-victims"></div>
-
-          <div id="controls-victims">
-              <h2>Controls</h2>
-              <div>
-                  <label for="region-dropdown-victims">Choose a region:</label>
-                  <select id="region-dropdown-victims" onchange="updateChartVictims()">
-                  </select>
-              </div>
-              <label for="region-dropdown">Select a behavior:</label>
-              <div id="stereotype-checkboxes-victims" class="checkbox-container-victims">
-              </div>
+        <!-- Violence section (directly visible) -->
+        <div class="section-title justify-content-center" data-aos="fade-up" data-aos-delay="250">
+          <p class="factor-text">Acceptability of intimate partner violence</p>
+          <p>
+            This section examines the acceptability of intimate partner violence in different regions of Italy. The bar graph shows the acceptability of various violent behaviors. The data shows the percentage of people who consider these behaviors acceptable or not, broken down by region, contributing to an understanding of cultural differences in opinion about domestic violence.
+          </p>
+          <br>
+        
+          <div class="container time-series align-items-center justify-content-center" data-num="1">
+            <div class="chart-container-wrapper">
+                <div id="chart-container-victims"></div>
+        
+                <div id="controls-victims">
+                    <h2>Controls</h2>
+                    <div>
+                        <label for="region-dropdown-victims">Choose a region:</label>
+                        <select id="region-dropdown-victims" onchange="updateChartVictims()">
+                        </select>
+                    </div>
+                    <label for="region-dropdown">Select a behavior:</label>
+                    <div id="stereotype-checkboxes-victims" class="checkbox-container-victims">
+                    </div>
+                </div>
+            </div>
           </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-<!-- Causes section -->
-<div class="collapse" id="causes">
-  <div class="section-title justify-content-center" data-aos="fade-up" data-aos-delay="250">
-    <p class="factor-text"> Indication of some causes of intimate partner violence </p>
-    <p>
-      This section explores the perceived causes of violence in intimate relationships in different regions of Italy. The data show how often each factor is identified as a cause of violence, contributing to a deeper understanding of the cultural and social roots of this phenomenon.
-    </p>
-    <br>
-
-    <div class="container time-series align-items-center justify-content-center" data-num="1">
-      <div class="chart-container-wrapper">
-          <div id="chart-container-causes"></div>
-
-  <div id="controls-causes">
-      <h2>Controls</h2>
-      
-      <div id="region-dropdown-container-causes">
-          <label for="region-dropdown-causes">Choose a region:</label>
-          <select id="region-dropdown-causes" onchange="updateChart()">
-          </select>
-      </div>
-  </div>
+        </div>
+        
+        <!-- Causes section (directly visible) -->
+        <div class="section-title justify-content-center" data-aos="fade-up" data-aos-delay="250">
+          <p class="factor-text">Indication of some causes of intimate partner violence </p>
+          <p>
+            This section explores the perceived causes of violence in intimate relationships in different regions of Italy. The data show how often each factor is identified as a cause of violence, contributing to a deeper understanding of the cultural and social roots of this phenomenon.
+          </p>
+          <br>
+        
+          <div class="container time-series align-items-center justify-content-center" data-num="1">
+            <div class="chart-container-wrapper">
+                <div id="chart-container-causes"></div>
+        
+                <div id="controls-causes">
+                    <h2>Controls</h2>
+        
+                    <div id="region-dropdown-container-causes">
+                        <label for="region-dropdown-causes">Choose a region:</label>
+                        <select id="region-dropdown-causes" onchange="updateChart()">
+                        </select>
+                    </div>
+                </div>
+            </div>
           </div>
-      </div>
-    </div>
-  </div>
-</div>
-
+        </div>
+        
 
       
 <!-- VISUALISATIONS -->     
